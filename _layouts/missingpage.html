@@ -107,13 +107,19 @@
             text-transform: uppercase;
             letter-spacing: 3px;
             font-family: "Fira Code", monospace;
+            animation: pulse 1.5s infinite;
         }
         .btn:hover, .btn:focus {
             transform: scale(1.05);
-        }       
+        }
         .btn:active {
             transform: scale(.9);
-        }    
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
         #dduyg, .btn {
             outline: none;
             -webkit-tap-highlight-color: transparent;
