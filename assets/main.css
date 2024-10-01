@@ -7,6 +7,13 @@
   --mono-font: "Source Code Pro", monospace;
 }
 
+@font-face {
+    font-family: 'Pentameter Light';
+    src: url('https://github.com/dduyg/LiminalLoop/raw/refs/heads/main/fonts/Pentameter-Wide-Light-Trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
   background-color: var(--back);
   color: var(--color-main);
@@ -28,6 +35,10 @@ a.link {
   padding-bottom: 0px !important;
   border-bottom: 2px solid #5a5a5a;
   transform: skew(-12deg) translateX(-50%);
+}
+
+h1, h2 {
+  font-family: 'Pentameter Light', sans-serif;
 }
 
 .inline-icon {
