@@ -17,7 +17,7 @@ labels:
 summary: fjkkfhjjijjghj
 ---
 
-<img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
+<img class="ui tiny right spaced image" src="../assets/images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
 
 I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know thaStack Overflow, a  date of the previous month in Python.mportant as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
 
