@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Pentameter Light';
-    src: url('https://github.com/dduyg/LiminalLoop/raw/refs/heads/main/fonts/Pentameter-Wide-Light-Trial.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-Light-Trial.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -91,7 +91,7 @@ nav {
   font-size: 1.1em;
   margin-right: 1rem;
   letter-spacing: 3px;
-  font-family: var(--mono-font);
+  font-weight: bold;
   cursor: pointer;
 }
 
