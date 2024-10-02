@@ -20,7 +20,7 @@ summary: Visualizing how the world’s land is used.
 In our bustling world, where cities and human-built infrastructure seem to dominate the landscape, it might come as a surprise to learn that no more than 1% of the world's habitable land is taken up by all of these infrastructures. That includes everything from our big cities and roads to the towns and cozy villages we call home. Conversely, a significant 50% of the world’s habitable land is dedicated to agriculture, playing a pivotal role in transforming our planet's landscape.
 
 <div class="ui hidden divider"></div>
-<div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
+<div style="max-width: 700px;"><img class="ui fluid image" src="../assets/images/global-land.png"></div>
 
 Yes, you read that right - we use half of the habitable land solely to feed ourselves. Isn't it just mind-blowing how we ended up using far more land for our consumption than we do to build our homes and communities? This glaring disparity between the land we use for human-built infrastructure and human consumption is both fascinating and alarming, painting a vivid picture of the profound changes our landscape has undergone over the centuries due to human activities.
 
