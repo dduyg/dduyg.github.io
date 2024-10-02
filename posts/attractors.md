@@ -44,10 +44,10 @@ Fascinated by this concept, I began to further explore attractors by visualizing
 Below are a few examples of my creations, showcasing the concept of attractors. I generated multiple outputs, by experimenting with the system's parameters and applying aesthetic efforts to emphasize the attractor dynamics.
 
 <div class="ui small images">
-  <img class="ui image" src="/images/attractorfields1.png" style="border: 1px solid black;">
-  <img class="ui image" src="/images/attractorfields4.jpg" style="border: 1px solid black;">
-  <img class="ui image" src="/images/attractorfields2.png" style="border: 1px solid black;">
-  <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
+  <img class="ui image" src="{{ site.baseurl }}/assets/images/attractorfields1.png" style="border: 1px solid black;">
+  <img class="ui image" src="{{ site.baseurl }}/assets/images/attractorfields4.jpg" style="border: 1px solid black;">
+  <img class="ui image" src="{{ site.baseurl }}/assets/images/attractorfields2.png" style="border: 1px solid black;">
+  <img class="ui image" src="{{ site.baseurl }}/assets/images/attractorfields3.png" style="border: 1px solid black;">
 </div>
 
 <pre style="max-width: 550px">
