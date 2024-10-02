@@ -1,6 +1,6 @@
 main {
   max-width: 800px;
-  margin: 6em auto 0;
+  margin: 6em auto 7em;
   padding: 1.25em;
   color: var(--color-light-main);
 }
@@ -21,10 +21,6 @@ header h1, header p {
   header {
     max-width: 75%;
   }
-}
-
-aside {
-  margin-bottom: 80px;
 }
 
 aside h2 {
