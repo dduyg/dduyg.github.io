@@ -14,7 +14,9 @@
     font-style: normal;
 }
 
-html, body {
+html,
+body {
+  height: 100%;
   background-color: var(--back);
   color: var(--color-main);
   margin: 0;
@@ -633,6 +635,11 @@ blockquote > :first-child {
 
 blockquote > :last-child {
   margin-bottom: 0;
+}
+
+blockquote { 
+  border-left: 3px solid #5a5a5a;
+  padding-left: 18px;
 }
 
 img {
