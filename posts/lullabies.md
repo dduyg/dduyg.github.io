@@ -17,7 +17,7 @@ projectlabel: Project
 summary: A project for my client.
 ---
 
-<img class="ui image" src="/images/cotton-header.png">
+<img class="ui image" src="../assets/images/cotton-header.png">
 
 The work revolved around the creation of an interactive platform where users can embark on a cultural exploration through the soothing melodies of lullabies. Our Lullaby Playlist Recommendation Engine will empower the audience to explore and appreciate the diverse range of lullabies from different corners of the globe.
 
