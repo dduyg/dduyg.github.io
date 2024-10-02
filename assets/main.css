@@ -38,7 +38,7 @@ a.link {
 }
 
 h1, h2 {
-  font-family: 'Pentameter Light', sans-serif;
+  font-family: 'Pentameter Light', 'Fira Sans', sans-serif;
 }
 
 .inline-icon {
