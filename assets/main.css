@@ -220,7 +220,7 @@ nav {
 footer {
   font-family: var(--mono-font);
   padding: 2rem;
-  padding-top: 90px;
+  margin-top: 100px;
   display: block;
 }
 .site-copyright {
@@ -231,21 +231,16 @@ footer {
   display: block;
   vertical-align: middle; 
   width: 100%;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem; 
-  line-height: 1.5;
+  padding: .3rem 0;
+  margin: 0;
 }
 .social-links, .site-contact {
   display: block;
   font-size: .875rem;
   vertical-align: middle;
   width: 100%;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: .3rem 0;
+  margin: 0;
 }
 .social-links a {
   color: var(--color-light-main);
@@ -263,7 +258,6 @@ footer {
 
 @media screen and (min-width: 60em) {
   footer {
-    padding: 2rem 4rem;
     display: table;
   }
   .site-copyright { 
@@ -277,6 +271,7 @@ footer {
   }
   .social-links {
     display: table-cell;
+    text-align: center;
     width: 33%;
     padding-top: 0;
     padding-bottom: 0;
