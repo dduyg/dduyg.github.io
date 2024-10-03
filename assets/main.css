@@ -220,7 +220,7 @@ nav {
 ------------------------------*/
 footer {
   font-family: var(--mono-font);
-  padding: 2rem 1.5rem 0;
+  padding: 2rem 1.5rem .7rem;
   color: #333;
   margin-top: 125px;
   display: block;
@@ -261,7 +261,7 @@ footer {
 
 @media screen and (min-width: 60em) {
   footer {
-    padding: 2rem 4rem 0;
+    padding: 2rem 4rem .7rem;
     display: table;
   }
   .site-copyright { 
