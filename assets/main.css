@@ -220,6 +220,7 @@ nav {
 footer {
   font-family: var(--mono-font);
   padding: 2rem;
+  padding-top: 90px;
   display: block;
 }
 .site-copyright {
