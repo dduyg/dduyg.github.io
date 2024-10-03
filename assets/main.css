@@ -226,6 +226,7 @@ footer {
 .site-copyright {
   font-family: "Fira Code", monospace !important;
   font-size: .7rem;
+  font-weight: bold;
   color: #5a5a5a;
   display: block;
   vertical-align: middle; 
@@ -244,7 +245,7 @@ footer {
 .social-links a {
   color: var(--color-light-main);
   font-size: 1.1rem;
-  margin-right: .5rem;
+  margin-right: .7rem;
   display: inline-block;
   cursor: pointer;
 }
@@ -252,7 +253,7 @@ footer {
   display: inline-block;
   text-decoration: underline;
   cursor: pointer;
-  margin: 0;
+  margin: 0 .7rem 0 0;
   padding: 0;
 }
 
