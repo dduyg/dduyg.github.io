@@ -245,7 +245,7 @@ footer {
 .social-links a {
   color: var(--color-light-main);
   font-size: 1.1rem;
-  margin-right: .25rem;
+  margin-right: .5rem;
   display: inline-block;
   cursor: pointer;
 }
