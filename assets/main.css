@@ -39,7 +39,7 @@ a.link {
 }
 a.link::after {
   content: "";
-  background: #b7b7b7;
+  background: #6a6468;
   position: absolute;
   left: 12px;
   bottom: -5px;
@@ -54,36 +54,6 @@ a.link:hover::after {
     width: 100%;
     height: 100%;
 }
-
-/*******************************
-*******************************/
-a.link2 {
-  color: #333;
-  font-family: var(--mono-font);
-  font-weight: bold;
-  vertical-align: top;
-  position: relative;
-}	
-a.link2::before {
-  content: '';
-  background-color: #b7b7b7;
-  position: absolute;
-  left: .5rem;
-  bottom: 5px;
-  width: 100%;
-  height: 8px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
-}
-a.link2:hover::before {
-  left: -5px;
-  bottom: 0;
-  height: 100%;
-  width: calc(100% + 10px);
-}
-/*******************************
-*******************************/
-
 
 h1, h2 {
   font-family: 'Pentameter Light', 'Fira Sans', sans-serif;
