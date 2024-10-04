@@ -88,7 +88,7 @@ aside h2 {
   border: 1px solid #333;
 }
 .card:hover .shape {
-  background: #5a5a5a;
+  background: #333;
 }
 
 .card-title {
