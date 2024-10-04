@@ -38,7 +38,7 @@ a.link {
 }
 a.link::after {
   content: "";
-  background: darkgray;
+  background: #b0b0b0;
   position: absolute;
   left: 12px;
   bottom: -5px;
