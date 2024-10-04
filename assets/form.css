@@ -7,7 +7,6 @@ main {
 }
 
 h1 {
-    font-weight: normal;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -61,7 +60,7 @@ form button {
     width: 100%;
     padding: 0.625em;
     font-family: var(--mono-font);
-    background-color: var(--color-light-main);
+    background-color: var(--color-main);
     color: #B8B9BE;
     letter-spacing: 2px;
     border-radius: 25px;
