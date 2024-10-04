@@ -31,6 +31,7 @@ a {
   text-decoration: none;
 }
 a.link {
+  color: #333;
   font-family: var(--mono-font);
   font-weight: bold;
   position: relative;
@@ -38,7 +39,7 @@ a.link {
 }
 a.link::after {
   content: "";
-  background: #848484;
+  background: #cecece;
   position: absolute;
   left: 12px;
   bottom: -5px;
