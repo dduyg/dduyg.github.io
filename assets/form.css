@@ -66,6 +66,8 @@ form button {
     border-radius: 25px;
     font-size: 1rem;
     font-weight: bold;
+    border: none;
+    outline: none;  
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: translateZ(0);
