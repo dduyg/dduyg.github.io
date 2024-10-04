@@ -342,28 +342,6 @@ img.ui.image {
 }
 
 /*******************************
-            States
-*******************************/
-.ui.hidden.images,
-.ui.hidden.image {
-  display: none;
-}
-.ui.hidden.transition.images,
-.ui.hidden.transition.image {
-  display: block;
-  visibility: hidden;
-}
-.ui.images > .hidden.transition {
-  display: inline-block;
-  visibility: hidden;
-}
-.ui.disabled.images,
-.ui.disabled.image {
-  cursor: default;
-  opacity: 0.45;
-}
-
-/*******************************
           Variations
 *******************************/
 
@@ -653,10 +631,6 @@ blockquote > :last-child {
 blockquote { 
   border-left: 3px solid #5a5a5a;
   padding-left: 18px;
-}
-
-img {
-  max-width: 100%;
 }
 
 span.frame {
