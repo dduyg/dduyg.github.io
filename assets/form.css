@@ -64,11 +64,10 @@ form button {
     background-color: var(--color-light-main);
     color: #B8B9BE;
     letter-spacing: 2px;
-    border-radius: 30px;
+    border-radius: 25px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    border: 3px solid #B8B9BE;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: translateZ(0);
     transition: background-color 0.3s ease, transform 0.25s ease-out;
