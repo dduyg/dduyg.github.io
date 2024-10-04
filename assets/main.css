@@ -31,15 +31,14 @@ a {
   text-decoration: none;
 }
 a.link {
-  color: #333;
+  color: black;
   font-family: var(--mono-font);
-  font-weight: bold;
   position: relative;
   overflow: hidden;
 }
 a.link::after {
   content: "";
-  background: #bdc3c7;
+  background: darkgray;
   position: absolute;
   left: 12px;
   bottom: -5px;
