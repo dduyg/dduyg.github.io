@@ -38,10 +38,10 @@ a.link {
 }
 a.link::after {
   content: "";
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   left: 12px;
-  bottom: -6px;
+  bottom: -5px;
   width: calc(100% - 8px);
   height: calc(100% - 8px);
   z-index: -1;
