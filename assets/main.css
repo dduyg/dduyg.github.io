@@ -55,6 +55,39 @@ a.link:hover::after {
     height: 100%;
 }
 
+/*******************************
+*******************************/
+a.link2 {
+  color: #333;
+  font-family: var(--mono-font);
+  font-weight: bold;
+	vertical-align: top;
+	position: relative;
+	font-weight: bold;
+	
+	&::before {
+		content: '';
+		background-color: #cecece;
+		position: absolute;
+		left: .5rem;
+		bottom: 5px;
+		width: 100%;
+		height: 8px;
+		z-index: -1;
+		transition: all .3s ease-in-out;
+	}
+	
+	&:hover::before {
+		left: -5px;
+		bottom: 0;
+		height: 100%;
+		width: calc(100% + 10px);
+	}	
+}
+/*******************************
+*******************************/
+
+
 h1, h2 {
   font-family: 'Pentameter Light', 'Fira Sans', sans-serif;
 }
