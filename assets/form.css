@@ -7,6 +7,7 @@ main {
 }
 
 h1 {
+    font-family: 'Pentameter ExtraLight', 'Fira Sans', sans-serif !important;
     margin-bottom: 0;
     padding-bottom: 0;
 }
