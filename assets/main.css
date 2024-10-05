@@ -8,6 +8,12 @@
 }
 
 @font-face {
+  font-family: 'Pentameter Light';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Pentameter ExtraLight';
   src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-ExtraLight.woff') format('woff');
   font-weight: normal;
@@ -55,7 +61,7 @@ a.link:hover::after {
 }
 
 h1, h2 {
-  font-family: 'Pentameter ExtraLight', 'Fira Sans', sans-serif;
+  font-family: 'Pentameter Light', 'Fira Sans', sans-serif;
 }
 
 .inline-icon {
