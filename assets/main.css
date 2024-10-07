@@ -7,7 +7,7 @@
   --mono-font: "Source Code Pro", monospace;
 }
 ::selection {
-  background-color: black;
+  background-color: #454545;
   color: white;
 }
 
