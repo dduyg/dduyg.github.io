@@ -6,6 +6,10 @@
   --main-font: "Fira Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
+::selection {
+  background-color: black;
+  color: white;
+}
 
 @font-face {
   font-family: 'Pentameter Light';
