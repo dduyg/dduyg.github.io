@@ -81,7 +81,7 @@ form button {
 }
 form button:hover, form button:focus {
     transform: scale(1.05);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 form button:active {
     transform: scale(0.9);
