@@ -23,6 +23,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
