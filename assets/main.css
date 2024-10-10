@@ -4,7 +4,7 @@
   --marker: #C9C9BF;
   --back: #9D9D9D;
   --main-font: "Fira Sans", sans-serif;
-  --mono-font: 'Fantasque Sans Mono', monospace;
+  --mono-font: "Source Code Pro", monospace;
 }
 ::selection {
   background-color: #454545;
@@ -22,13 +22,6 @@
   src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-ExtraLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
-@font-face {
-    font-family: 'Fantasque Sans Mono';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 html,
