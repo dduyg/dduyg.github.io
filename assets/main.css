@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
-
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
   --marker: #C9C9BF;
   --back: #9D9D9D;
-  --main-font: "Work Sans", sans-serif;
+  --main-font: "Fira Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 @font-face {
