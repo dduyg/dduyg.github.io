@@ -6,17 +6,11 @@
   --marker: #C9C9BF;
   --back: #9D9D9D;
   --main-font: "Syne", sans-serif;
-  --mono-font: "Source Code Pro", monospace;
+  --mono-font: 'Neue Machina', monospace;
 }
 @font-face {
-  font-family: 'Pentameter Light';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Pentameter ExtraLight';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-ExtraLight.woff') format('woff');
+  font-family: 'Neue Machina';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/NeueMachina-Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -66,7 +60,7 @@ a.link:hover::after {
 }
 
 h1, h2 {
-  font-family: 'Pentameter Light', 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .inline-icon {
