@@ -41,9 +41,9 @@ a.link {
 a.link::before {
   position: absolute;
   content: attr(data-content);
-  color: #00008b;
+  color: #848484;
   text-decoration: underline;
-  text-decoration-color: #00008b; /* Replace with your $darkblue */
+  text-decoration-color: #848484;
   text-decoration-style: dotted;
   clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
   transition: clip-path 275ms ease;
