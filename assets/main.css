@@ -34,7 +34,7 @@ a {
 
 .link {
   font-family: var(--mono-font);
-  color: green;
+  color: #808080;
   cursor: pointer;
   padding-bottom: 0.2ex;
 
