@@ -36,6 +36,7 @@ a.link {
   color: black;
   cursor: pointer;
   position: relative;
+  transition: clip-path 275ms ease;
 }
 a.link::before {
   position: absolute;
