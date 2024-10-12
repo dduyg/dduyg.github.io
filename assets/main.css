@@ -31,28 +31,25 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a.link {
+
+.link {
   font-family: var(--mono-font);
-  color: black;
+  color: green;
   cursor: pointer;
   position: relative;
   transition: clip-path 275ms ease;
 }
-a.link::before {
+.link::before {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-decoration: underline;
+  content: attr(data-content);
+  color: #00008b;
   text-decoration-color: #00008b; /* Replace with your $darkblue */
   text-decoration-style: wavy;
   clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
   transition: clip-path 275ms ease;
-  z-index: -1; /* Ensures the pseudo-element remains in the background */
 }
-a.link:hover::before, 
-a.link:focus::before {
+.link:hover::before, 
+.link:focus::before {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
