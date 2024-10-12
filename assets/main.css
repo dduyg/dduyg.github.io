@@ -7,9 +7,16 @@
   --marker: #C9C9BF;
   --back: #9D9D9D;
   --main-font: "Hanken Grotesk", sans-serif;
-  --mono-font: "Fira Code", monospace;
+  --mono-font: 'LabMono', monospace;
 }
 
+@font-face {
+  font-family: 'LabMono';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 ::selection {
   background-color: #454545;
   color: white;
