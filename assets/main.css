@@ -221,7 +221,9 @@ nav {
   .logo-item {
     display: inline-block;
     font-size: 1.1em;
-    cursor: pointer;
+    vertical-align: middle;
+    color: var(--color-light-main);
+    font-family: var(--mono-font);
   }
 
   #dropdown-menu {
