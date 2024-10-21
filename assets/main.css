@@ -221,7 +221,7 @@ nav {
   .logo-item {
     display: inline-block;
     font-size: 1.1em;
-    vertical-align: text-top;
+    vertical-align: baseline;
     color: var(--color-light-main);
     font-family: var(--mono-font);
   }
