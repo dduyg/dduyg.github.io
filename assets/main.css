@@ -34,22 +34,11 @@ a.link {
   color: #5a5a5a;
   cursor: pointer;
   font-weight: bold;
-  position: relative;
-  transition: clip-path 275ms ease;
+  transition: color 0.3s;
 }
-a.link::before {
-  position: absolute;
-  content: attr(data-content);
+a.link:hover { 
   color: #848484;
-  text-decoration: underline;
-  text-decoration-color: #848484;
-  text-decoration-style: dotted;
-  clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
-  transition: clip-path 275ms ease;
-}
-a.link:hover::before, 
-a.link:focus::before {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  filter: url("#turbulenceFilter");
 }
 
 h1, h2 {
