@@ -52,9 +52,6 @@
         form input:focus, form textarea:focus {
             border-top: 3px solid #474747;
         }
-        form textarea {
-            resize: vertical;
-        }
         form button {
             display: block;
             width: 100%;
