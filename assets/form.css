@@ -1,94 +1,92 @@
-/**
- * Contact Form
- */
-
-main {
-    max-width: 600px;
-    margin: 150px auto 55px;
-    padding: 1em;
-    font-size: 16px;
-}
-
-h1 {
-    font-family: 'Pentameter ExtraLight', 'Fira Sans', sans-serif !important;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-p {
-    font-size: .9em;
-    margin-top: 0;
-    padding-top: 0;
-    margin-bottom: 3em;
-}
-
-#contact-form {
-    width: 100%;
-}
-
-.form-group {
-    font-family: var(--mono-font);
-    margin-bottom: 1.25em;
-}
-
-form label {
-    display: block;
-    margin-bottom: 0.3125em;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 0.625em;
-    border: 1px solid var(--color-light-main);
-    border-radius: .25rem;
-    font-size: 1em;
-    font-family: var(--mono-font);
-    box-sizing: border-box;
-    background-color: #969696;
-    outline: none; /* Remove default browser outline */
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: var(--marker);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-form button {
-    display: block;
-    width: 100%;
-    height: 80px;
-    margin: 0; 
-    padding: 0;
-    background-color: var(--color-main);
-    color: #B8B9BE;
-    font-size: 1rem;
-    font-family: "Syncopate", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 4px;
-    outline: none;  
-    cursor: pointer;
-    transform: translateZ(0);
-    transition: background-color 0.3s ease, transform 0.25s ease-out;
-}
-@media(min-width: 960px) {
-    form button {
-        height: 100px;
-        font-size: 20px;
-    }
-}
-form button:hover, form button:focus {
-    transform: scale(1.05);
-    background-color: rgba(0, 0, 0, 0.2);
-    border: 3px solid #B8B9BE;
-}
-form button:active {
-    transform: scale(0.9);
-}
+        main {
+            max-width: 1200px;
+            margin: 100px auto 0;
+            padding: 2em;
+        }      
+        .contactHeader {
+            font-size: 1.7rem;
+            font-weight: bold;
+            font-family: 'Pentameter ExtraLight', 'Fira Sans', sans-serif !important;
+            margin: 0;
+            padding: 0 0 40px;
+        }
+        .content {
+            display: flex;
+            gap: 5px 10%;
+        }
+        .hello {
+            flex: 0 0 40%;
+            font-size: 16px;
+        }
+        .contact-form {
+            flex: 0 0 60%;
+            margin-top: 35px;
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .hello, .contact-form {
+                flex: 1;
+            }
+            .contact-form {
+                font-size: 17px;
+                margin-top: 26px;
+            }
+            .contactHeader {
+                padding-bottom: 0;
+            }
+        }
+        form input, form textarea {
+            width: 100%;   
+            padding: 25px 15px;
+            color: black;
+            background: none;
+            border: none;
+            outline: none;
+            font-family: var(--mono-font);
+            border-top: 0.0875em solid var(--color-main);
+            box-sizing: border-box;         
+        }
+        form input:focus, form textarea:focus {
+            border-top: 3px solid #474747;
+        }
+        form textarea {
+            resize: vertical;
+        }
+        form button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 6% 0 0; 
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.3);        
+            color: var(--color-main);
+            font-size: 21px;
+            font-family: "Syncopate", sans-serif;
+            border: 1px solid black;
+            border-radius: 50px;
+            outline: none;  
+            cursor: pointer;
+            transform: translateZ(0);
+            transition: background-color 0.3s ease, transform 0.25s ease-out;
+        }        
+        form button:hover, form button:focus {
+            transform: scale(1.05);
+            background-color: rgba(0, 0, 0, 0.1);
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        form button:active {
+            transform: scale(0.9);
+        }
+        #optional-text {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 0.73em;
+            font-style: italic;
+            font-family: var(--mono-font);
+            color: rgba(0, 0, 0, 0.4);    
+        }
