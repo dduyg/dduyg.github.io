@@ -82,7 +82,8 @@
             transform: scale(0.9);
         }
         form input::placeholder, form textarea::placeholder {
-            color: #757575; /* Custom placeholder color */
+            /* color: #757575; Custom placeholder color */
+            font-size: 24px;
         }
         #optional-text {
             position: absolute;
@@ -91,5 +92,5 @@
             font-size: 0.73em;
             font-style: italic;
             font-family: var(--mono-font);
-            color: #757575;    
+            color: rgba(0, 0, 0, 0.4);    
         }
