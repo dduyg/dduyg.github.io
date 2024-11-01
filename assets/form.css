@@ -83,7 +83,7 @@
         }
         form input::placeholder, form textarea::placeholder {
             /* color: #757575; Custom placeholder color */
-            font-size: 24px;
+            font-size: 20px;
         }
         #optional-text {
             position: absolute;
