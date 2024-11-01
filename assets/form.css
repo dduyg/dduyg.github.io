@@ -67,7 +67,11 @@
             font-family: "Syncopate", sans-serif;
             border: 2px solid black;
             border-radius: 50px;
-            outline: none;  
+            outline: none;
+            -webkit-user-select: none;
+               -moz-user-select: none;
+                -ms-user-select: none;
+                    user-select: none;
             cursor: pointer;
             transform: translateZ(0);
             transition: background-color 0.3s ease, transform 0.25s ease-out;
