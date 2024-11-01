@@ -1,39 +1,44 @@
-<h1>* — A simple hello could lead to a million things</h1>
-<p>Whether you want to know more about my work or me, ask a question, simply want to bounce around some ideas, or just like to say hi, please don't hesitate to send me a message. I would love to hear from you.</p>
-<div id="contact-form">
-    <form id="myForm" action="https://formspree.io/f/mvoenkpz" method="POST">
-        <div class="form-group">
-            <label for="name">Name*</label>
-            <input type="text" id="name" name="name" placeholder="Full Name" required>
-        </div>
-        <div class="form-group">
-            <label for="email">Email*</label>
-            <input type="email" id="email" name="email" placeholder="myemail@address.com" required>
-        </div>
-        <div class="form-group">
-            <label for="company">Company/Industry &nbsp;<i style="color:#474747">(optional)</i></label>
-            <input type="text" id="company" name="company" placeholder="Company name or Industry">
-        </div>
-        <div class="form-group">
-            <label for="message">Message*</label>
-            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
-        </div>
-        <button type="submit" onclick="clearForm()">Send Message</button>
-    </form>
-</div>
+    <div class="contactHeader">* — A simple hello could lead to a million things</div>
+    <div class="content">
+        <section class="hello">
+            <p>Whether you want to know more about my work or me, ask a question, simply want to bounce around some ideas, or just like to say hi, please don't hesitate to send me a message. I would love to hear from you.</p>      
+        </section>
+        <section class="contact-form">
+            <form id="myForm" action="https://formspree.io/f/mvoenkpz" method="POST">
+                <input type="text" id="name" name="name" placeholder="FULL NAME *" required>
+                <input type="email" id="email" name="email" placeholder="BEST EMAIL ADDRESS TO REACH YOU *" required> 
+                <div style="position: relative; max-width: 100%;">
+                    <input type="text" id="company" name="company" placeholder="COMPANY/INDUSTRY" style="padding-right: 45px;" oninput="toggleOptionalText()">
+                    <span id="optional-text"><sup>(optional)</sup></span>
+                </div>    
+                <textarea id="message" name="message" rows="5" placeholder="ENTER YOUR MESSAGE *" required></textarea>
+                <button type="submit" onclick="clearForm()">Send Message</button>
+            </form>
+        </section>
+    </div>
 
-<script>
-    function clearForm() {
-        // Get the form element
-        var form = document.getElementById('myForm');
-        
-        // Add a submit event listener to the form
-        form.addEventListener('submit', function(event) {
-            // Wait until the form is submitted
-            setTimeout(function() {
-                // Clear the form fields
-                form.reset();
-            }, 50); // Adjust the delay if needed
-        });
-    }
-</script>
+    <script>
+        function toggleOptionalText() {
+            const companyInput = document.getElementById('company');
+            const optionalText = document.getElementById('optional-text');
+
+            // Check if the input value is empty or not
+            if (companyInput.value.trim() === '') {
+                optionalText.style.display = 'inline';  // Show optional text
+            } else {
+                optionalText.style.display = 'none';    // Hide optional text
+            }
+        }
+
+        function clearForm() {
+            const form = document.getElementById('myForm');
+
+            form.addEventListener('submit', function(event) {
+                setTimeout(function() {
+                    form.reset();
+                    // Show the optional text again after reset
+                    document.getElementById('optional-text').style.display = 'inline';
+                }, 50);
+            });
+        }
+    </script>
