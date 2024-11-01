@@ -52,6 +52,9 @@
         form input:focus, form textarea:focus {
             border-top: 3px solid #474747;
         }
+        form textarea {
+            resize: none;
+        }
         form button {
             display: block;
             width: 100%;
@@ -78,6 +81,9 @@
         form button:active {
             transform: scale(0.9);
         }
+        form input::placeholder, form textarea::placeholder {
+            color: #757575; /* Custom placeholder color */
+        }
         #optional-text {
             position: absolute;
             top: 15px;
@@ -85,5 +91,5 @@
             font-size: 0.73em;
             font-style: italic;
             font-family: var(--mono-font);
-            color: rgba(0, 0, 0, 0.4);    
+            color: #757575;    
         }
