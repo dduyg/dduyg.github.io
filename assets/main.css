@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 
+::-moz-selection { /* Code for Firefox */
+  background: black;
+  color: white;
+}
 ::selection {
-  background-color: #000;
-  color: #fff;
+  background: black;
+  color: white;
 }
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
