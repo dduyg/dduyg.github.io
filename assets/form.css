@@ -61,11 +61,12 @@
             max-width: 400px;
             margin: 6% 0 0; 
             padding: 12px 28px;
-            background-color: rgba(0, 0, 0, 0.3);        
-            color: var(--color-main);
+            background-color: transparent;
+            color: black;
+            font-weight: bold;
             font-size: 21px;
             font-family: "Syncopate", sans-serif;
-            border: 2px solid black;
+            border: 3px solid black;
             border-radius: 50px;
             outline: none;
             -webkit-user-select: none;
@@ -81,8 +82,8 @@
             padding-right: 80px;
         }        
         form button:hover, form button:focus {
-            background-color: rgba(0, 0, 0, 0.1);
-            border: none;
+            background-color: black;
+            color: var(--marker);
             transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 2s cubic-bezier(0.165, 0.84, 0.44, 1);
             transform: translateY(-4px);
             box-shadow: 4px 4px 0px rgba(3,4,3,.2);
