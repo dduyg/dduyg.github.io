@@ -64,9 +64,8 @@
             font-weight: bold;
             font-size: 21px;
             font-family: "Syncopate", sans-serif;
-            border: 2px solid black;
-            -moz-border-radius: 50px;
-            -webkit-border-radius: 50px;
+            border: none;
+            box-shadow: 0 0 0 2px black;           
             border-radius: 50px;    
             pointer-events: auto;
             outline: none;
