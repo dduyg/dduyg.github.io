@@ -65,8 +65,9 @@
             font-size: 21px;
             font-family: "Syncopate", sans-serif;
             border: none;
-            box-shadow: 0 0 0 2px black;           
-            border-radius: 50px;    
+            box-shadow: 0 0 0 2px black;
+            border-radius: 50px;
+            text-align: left;
             pointer-events: auto;
             outline: none;
             user-select: none;
