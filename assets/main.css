@@ -1,3 +1,9 @@
+* {   /* Reset to ensure a clean slate */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 
 ::-moz-selection { /* Code for Firefox */
