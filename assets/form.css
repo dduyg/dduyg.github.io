@@ -74,8 +74,7 @@
             cursor: pointer;
             position: relative;
             overflow: hidden;
-            display: flex;
-            align-items: center;
+            display: block;
             background: transparent;
             transition: color 0.3s ease, background 0.3s ease;
             padding-right: 70px; /* Space for the SVG icon */
@@ -162,4 +161,4 @@
             font-style: italic;
             font-family: var(--mono-font);
             color: rgba(0, 0, 0, 0.4);    
-        }
+}
