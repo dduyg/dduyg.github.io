@@ -75,8 +75,8 @@
             overflow: hidden;
             display: block;
             background: transparent;
-            transition: color 0.3s ease, background 0.3s ease; /* Smooth transition for color and background */
-            padding-right: 50px; /* Space for the SVG icon */
+            transition: color 0.3s ease, background 0.3s ease;
+            padding-right: 70px; /* Space for the SVG icon */
         }      
         .send-btn span {
             display: block;
