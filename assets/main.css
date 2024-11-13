@@ -149,7 +149,7 @@ nav {
   border: solid var(--color-main);
   border-width: 2px 1px 1px 2px;
   border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: .5rem 1rem;
   margin-bottom: .5rem;
   background: #898989;
