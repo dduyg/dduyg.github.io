@@ -313,9 +313,12 @@ nav, footer {
       -ms-user-select: none;
           user-select: none;
 }
-nav:focus, nav:active, main:focus, main:active, footer:focus, footer:active {
-  outline: none;
-  -webkit-tap-highlight-color: transparent;
+image, svg {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 
