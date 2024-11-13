@@ -18,11 +18,13 @@ main {
 .hello {
     flex: 0 0 40%;
     font-size: 16px;
+    margin-right: 20px;
 }
 .contact-form {
     flex: 0 0 60%;
     margin-top: 35px;
     font-size: 20px;
+    padding-right: 20px;
 }
 
 /* Responsive design for smaller screens */
