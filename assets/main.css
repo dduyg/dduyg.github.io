@@ -52,15 +52,9 @@ a.link:hover, a.link:focus {
 }
 
 h1, h2 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Syncopate", sans-serif;
 }
 
-.inline-icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-}
 
 /* Navigation
 ------------------------------*/
