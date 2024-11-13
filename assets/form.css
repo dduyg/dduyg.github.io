@@ -83,7 +83,7 @@ form textarea {
 /* Send button styling */
 .send-btn {
     display: inline-block;
-    width: auto;
+    width: 100%;
     max-width: 400px;
     padding: 12px 28px;
     margin: 6% 0 0;
