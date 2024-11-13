@@ -76,7 +76,7 @@ form textarea {
     cursor: pointer;
     position: relative;
     overflow: hidden; /* Keeps animation within rounded button */
-    display: block;
+    display: inline-block;
     background: transparent;
     transition: color 0.3s ease, background 0.3s ease;
     padding-right: 70px; /* Space for the SVG icon */
