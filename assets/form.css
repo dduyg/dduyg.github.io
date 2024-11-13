@@ -1,8 +1,9 @@
+/* Contact form layout and styling */
 main {
     max-width: 1200px;
     margin: 100px auto 0;
     padding: 2em;
-}
+}      
 .contactHeader {
     font-size: 1.7rem;
     font-weight: bold;
@@ -23,6 +24,8 @@ main {
     margin-top: 35px;
     font-size: 20px;
 }
+
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
@@ -38,6 +41,8 @@ main {
         padding-bottom: 0;
     }
 }
+
+/* Form styling */
 form input, form textarea {
     width: 100%;   
     padding: 25px 15px;
@@ -49,67 +54,65 @@ form input, form textarea {
     border-top: 0.0875em solid var(--color-main);
     box-sizing: border-box;         
 }
+
 form input:focus, form textarea:focus {
     border-top: 3px solid #474747;
 }
+
 form textarea {
     resize: none;
 }
 
-/* Send button styles */
+/* custom placeholder color ==>
+   form input::placeholder, form textarea::placeholder {
+       color: #757575;
+    }
+*/
+
+/* Optional text styling for Company/Industry field */
+#optional-text {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.73em;
+    font-style: italic;
+    font-family: var(--mono-font);
+    color: rgba(0, 0, 0, 0.4);    
+}
+
+/* Send button styling */
 .send-btn {
-    width: 100%;
+    display: inline-block;
+    width: auto;
     max-width: 400px;
-    margin: 6% 0 0;
     padding: 12px 28px;
+    margin: 6% 0 0;
     color: black;
     font-weight: bold;
     font-size: 21px;
     font-family: "Syncopate", sans-serif;
     border: none;
-    box-shadow: 0 0 0 2px black;
     border-radius: 50px;
+    box-shadow: 0 0 0 2px black;
     text-align: left;
-    pointer-events: auto;
     outline: none;
-    user-select: none;
     cursor: pointer;
     position: relative;
-    overflow: hidden; /* Keeps animation within rounded button */
-    display: inline-block;
-    background: transparent;
-    transition: color 0.3s ease, background 0.3s ease;
+    overflow: hidden; /* Keeps background animation within rounded edges */
+    background: linear-gradient(to right, transparent 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: background-position 0.4s ease, color 0.3s ease;
     padding-right: 70px; /* Space for the SVG icon */
-}
-
-.send-btn span {
-    display: block;
-    position: relative;
-    z-index: 1;
-}
-
-.send-btn > span {
-    overflow: hidden;
-}
-
-.send-btn::before,
-.send-btn::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: #000;
-    z-index: 0; /* Ensures pseudo-elements are behind text */
-    border-radius: 50px; /* Apply a fixed border-radius to match the button */
 }
 
 .send-btn:hover,
 .send-btn:focus {
+    background-position: right;
     color: linen;
 }
 
+/* Arrow icon styling */
 .send-btn .send-arrow {
     position: absolute;
     right: 5%;
@@ -127,57 +130,22 @@ form textarea {
     transform: translateY(-50%) translateX(10px);
 }
 
-.send-btn:hover > span > span,
-.send-btn:focus > span > span {
+/* Additional styles for text animation */
+.send-btn span {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.send-btn > span > span {
     animation: MoveRightInitial 0.1s forwards, MoveRightEnd 0.3s forwards 0.2s;
-}       
+}
 
 @keyframes MoveRightInitial {
     to { transform: translate3d(105%, 0, 0); }
-}  
+}
 
 @keyframes MoveRightEnd {
     from { transform: translate3d(-100%, 0, 0); }
     to { transform: translate3d(0, 0, 0); }
-}
-
-.send-btn::before {
-    width: 135%;
-    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
-    transform: translate3d(-100%, 0, 0);
-}
-
-.send-btn:hover::before,
-.send-btn:focus::before {
-    transform: translate3d(0, 0, 0);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-.send-btn::after {
-    width: 105%;
-    transform: translate3d(100%, 0, 0);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-.send-btn:hover::after,
-.send-btn:focus::after {
-    transform: translate3d(0, 0, 0);
-    transition: transform 0.01s 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-/* custom placeholder color ==>
-   form input::placeholder, form textarea::placeholder {
-       color: #757575;
-    }
-*/
-
-#optional-text {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 0.73em;
-    font-style: italic;
-    font-family: var(--mono-font);
-    color: rgba(0, 0, 0, 0.4);    
 }
