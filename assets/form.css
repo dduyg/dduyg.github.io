@@ -118,7 +118,7 @@ form textarea {
 /* Arrow icon styling */
 .send-btn .send-arrow {
     position: absolute;
-    right: 7%;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 47px;
