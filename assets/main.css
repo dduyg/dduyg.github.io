@@ -227,72 +227,49 @@ nav {
 /* Footer
 ------------------------------*/
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   font-family: var(--mono-font);
-  padding: 2rem 1.5rem 1rem;
-  color: #333;
-  margin-top: 125px;
-  display: block;
+  padding: 2rem 4rem 1rem;
+  margin-top: 50px;      
 }
-.site-copyright {
+.copyright, .social-links, .support {
+  flex: 1;
+}
+.copyright {
+  flex-basis: 50%;
   font-family: "Fira Code", monospace !important;
   font-size: .7rem;
   font-weight: bold;
-  color: #5a5a5a;
-  display: block;
-  vertical-align: middle; 
-  width: 100%;
-  padding: .3rem 0;
-  margin: 0;
+  opacity: 0.5;
 }
-.social-links, .site-contact {
-  display: block;
+.social-links, .support {  
+  flex-basis: 25%;
   font-size: .8rem;
-  vertical-align: middle;
-  width: 100%;
-  padding: .3rem 0;
-  margin: 0;
+  text-align: right;
 }
 .social-links a {
-  color: var(--color-light-main);
-  font-size: 1.1rem;
+  display: inline-block;
+  cursor: pointer;
   margin-right: .7rem;
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+.support a {
   display: inline-block;
   cursor: pointer;
-}
-.site-contact a {
-  display: inline-block;
+  margin-right: 1rem;
   text-decoration: underline;
-  cursor: pointer;
-  margin: 0 1rem 0 0;
-  padding: 0;
 }
-
-@media screen and (min-width: 60em) {
+@media (max-width: 768px) {
   footer {
-    padding: 2rem 4rem 1rem;
-    display: table;
+    flex-direction: column;
+    padding: 2rem 1.5rem 1rem;
   }
-  .site-copyright { 
-    display: table-cell;
-    width: 33%;
+  .social-links, .support {
     text-align: left;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;  
-  }
-  .social-links {
-    display: table-cell;
-    text-align: center;
-    width: 33%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }  
-  .site-contact {
-    display: table-cell;
-    text-align: right;
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 /********************************/
