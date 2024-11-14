@@ -233,7 +233,7 @@ footer {
   gap: 10px;
   font-family: var(--mono-font);
   padding: 2rem 4rem 1rem;
-  margin-top: 50px;      
+  margin-top: 125px;
 }
 .copyright, .social-links, .support {
   flex: 1;
