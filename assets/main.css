@@ -25,10 +25,7 @@
 
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
+  height: 100%;
   background-color: var(--back);
   color: var(--color-main);
   margin: 0;
@@ -37,7 +34,6 @@ body {
   font-family: var(--main-font);
   -webkit-font-smoothing: antialiased;
 }
-main { flex: 1; }
 
 a {
   color: inherit;
@@ -234,6 +230,7 @@ footer {
   font-family: var(--mono-font);
   padding: 2rem 1.5rem 1rem;
   color: #333;
+  margin-top: 125px;
   display: block;
 }
 .site-copyright {
