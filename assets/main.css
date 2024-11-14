@@ -229,6 +229,7 @@ nav {
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 10px;
   font-family: var(--mono-font);
   padding: 2rem 4rem 1rem;
