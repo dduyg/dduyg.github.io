@@ -15,27 +15,29 @@
   {% for css_file in page.css %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/{{ css_file }}.css">{% endfor %}
 </head>
 <body>
-  <nav>
-    <a class="home-badge" href="{{ site.baseurl }}/">
-      <img id="badge" src="{{ site.baseurl }}/assets/images/badge.gif"><span class="logo-item item">/dduyg</span> 
-    </a>
-    <div id="menu"> 
+  <div class="siteHeader">
+    <a class="siteHeader_title" href="{{ site.baseurl }}/">/dduyg</a>
+    <nav id="aside-menu"> 
       <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
       <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
       <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">works</a>
       <a class="item {% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}/contact">contact</a>
-    </div>
-    <div id="dropdown-menu">
-      <a href="#" class="dropdown-btn" tabindex="0" aria-haspopup="menu">dduyg</a>
-      <div class="dropdown-content">
-        <a class="item {% if page.url == '/' %}active{% endif %}" style="--delay: 1;" href="{{ site.baseurl }}/">home</a>
-        <a class="item {% if page.url contains '/posts/' %}active{% endif %}" style="--delay: 2;" href="{{ site.baseurl }}/posts">posts</a>
-        <a class="item {% if page.url == '/about.html' %}active{% endif %}" style="--delay: 3;" href="{{ site.baseurl }}/about">about</a>
-        <a class="item {% if page.url contains '/works/' %}active{% endif %}" style="--delay: 4;" href="{{ site.baseurl }}/works">works</a>
-        <a class="item {% if page.url == '/contact.html' %}active{% endif %}" style="--delay: 5;" href="{{ site.baseurl }}/contact">contact</a>
+    </nav>
+    <nav id="drop-menu">
+      <div class="siteHeader_menuBtn" id="menuBtn">
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
       </div>
-    </div>
-  </nav>
+      <div class="dropNav">
+        <a class="item {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">home</a>
+        <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
+        <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
+        <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">works</a>
+        <a class="item {% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}/contact">contact</a>
+      </div>
+    </nav>
+  </div>
 
   <main>
   <!-- ————————●●●———————— -->
@@ -69,5 +71,21 @@
     }); 
   </script>
   {% endif %}
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const dropContent = document.querySelector('.dropNav');
+
+    menuBtn.addEventListener('click', () => {
+      // Toggle the 'active' class on the menu button and toggle visibility of drop content
+      menuBtn.classList.toggle('active');
+      dropContent.style.visibility = 
+        dropContent.style.visibility === 'visible' ? 'hidden' : 'visible';
+
+      // Add 'active' to each drop item for the staggered transition
+      const items = dropContent.querySelectorAll('.item');
+      items.forEach(item => item.classList.toggle('active'));
+    });
+  </script>
 </body>
 </html>
