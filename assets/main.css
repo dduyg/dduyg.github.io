@@ -15,8 +15,7 @@
   color: white;
 }
 :root {
-  --color-main: rgba(0, 0, 0, 0.87);
-  --color-light-main: #292721; 
+  --color-main: rgba(0, 0, 0, 0.87); 
   --marker: #C9C9BF;
   --back: #9e9e9e;
   --main-font: "Fira Sans", sans-serif;
