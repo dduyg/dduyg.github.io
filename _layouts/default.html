@@ -82,9 +82,13 @@
       dropContent.style.visibility = 
         dropContent.style.visibility === 'visible' ? 'hidden' : 'visible';
 
-      // Add 'open' to each drop item for the staggered transition
-      const items = dropContent.querySelectorAll('.item');
-      items.forEach(item => item.classList.toggle('open'));
+      // Add 'open' to each drop item in sequential order
+      const items = Array.from(dropContent.querySelectorAll('.item'));
+      items.forEach((item, index) => {
+        // Reset transition delay to ensure consistent behavior
+        item.style.transitionDelay = `${index * 0.2}s`;
+        item.classList.toggle('open');
+      });
     });
   </script>
 </body>
