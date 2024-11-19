@@ -2,7 +2,6 @@ main {
   max-width: 800px;
   margin: 6em auto 0;
   padding: 1.25em;
-  color: var(--color-light-main);
 }
      
 header {
