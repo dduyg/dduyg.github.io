@@ -77,14 +77,14 @@
     const dropContent = document.querySelector('.dropNav');
 
     menuBtn.addEventListener('click', () => {
-      // Toggle the 'active' class on the menu button and toggle visibility of drop content
-      menuBtn.classList.toggle('active');
+      // Toggle the 'open' class on the menu button and toggle visibility of drop content
+      menuBtn.classList.toggle('open');
       dropContent.style.visibility = 
         dropContent.style.visibility === 'visible' ? 'hidden' : 'visible';
 
-      // Add 'active' to each drop item for the staggered transition
+      // Add 'open' to each drop item for the staggered transition
       const items = dropContent.querySelectorAll('.item');
-      items.forEach(item => item.classList.toggle('active'));
+      items.forEach(item => item.classList.toggle('open'));
     });
   </script>
 </body>
