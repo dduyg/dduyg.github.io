@@ -143,8 +143,7 @@ h1, h2 {
 .dropNav .item.active {
   color: #484848;
 }
-
-.item.active::before {
+.dropNav .item.active::before {
   content: '';
   display: inline-block;
   width: 0.6em;
