@@ -72,31 +72,29 @@
   </script>
   {% endif %}
 
-<script>
-  const menuBtn = document.getElementById('menuBtn');
-  const dropNav = document.querySelector('.dropNav');
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const dropNav = document.querySelector('.dropNav');
 
-  menuBtn.addEventListener('click', () => {
-    const isOpen = menuBtn.classList.toggle('open');
-    dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.classList.toggle('open');
+      dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
 
-    const items = [...dropNav.querySelectorAll('.item')];
+      const items = [...dropNav.querySelectorAll('.item')];
 
-    if (isOpen) {
-      // When opening the menu, animate all items
-      items.forEach((item, index) => {
-        item.classList.remove('open'); // Reset class for fresh animations
-        item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
-        item.classList.add('open'); // Start animation for each item
-      });
-    } else {
-      // When closing the menu, reset the animation
-      items.forEach((item) => {
-        item.style.transitionDelay = ''; // Remove delay
-        item.classList.remove('open'); // Reset the open class
-      });
-    }
-  });
-</script>
+      if (isOpen) {
+        items.forEach((item, index) => {
+          item.classList.remove('open'); // Reset class for fresh animations
+          item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
+          item.classList.add('open');
+        });
+      } else {
+        items.forEach((item) => {
+          item.style.transitionDelay = '';
+          item.classList.remove('open');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
