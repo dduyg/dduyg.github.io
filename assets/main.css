@@ -152,8 +152,8 @@ h1, h2 {
   height: 0.6em;
   border-radius: 50%;
   background-color: var(--color-main);
-  margin-right: 0.5em;
-  animation: rotate 1.5s cubic-bezier(.23, 1, .32, 1) infinite;
+  margin-right: 0.6em;
+  animation: rotate 1.5s ease-in-out infinite;
 }
 @keyframes rotate { 0% {transform: rotateX(0deg);} 100% {transform: rotateX(360deg);} }
 
