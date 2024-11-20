@@ -17,7 +17,7 @@
 <body>
   <div class="siteHeader">
     <a class="siteHeader_title" href="{{ site.baseurl }}/">/dduyg</a>
-    <nav id="aside-menu"> 
+    <nav id="aside-menu">
       <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
       <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
       <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">works</a>
@@ -72,37 +72,30 @@
   </script>
   {% endif %}
 
-<script>
-  const menuBtn = document.getElementById('menuBtn');
-  const dropNav = document.querySelector('.dropNav');
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const dropNav = document.querySelector('.dropNav');
 
-  menuBtn.addEventListener('click', () => {
-    const isOpen = menuBtn.classList.toggle('open');
-    dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.classList.toggle('open');
+      dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
 
-    const items = [...dropNav.querySelectorAll('.item')];
-    
-    // Sort items to ensure animation always starts with the first menu item
-    const sortedItems = items.sort((a, b) => {
-      return Array.from(dropNav.children).indexOf(a) - Array.from(dropNav.children).indexOf(b);
-    });
+      const items = [...dropNav.querySelectorAll('.item')];
 
-    if (isOpen) {
-      sortedItems.forEach((item, index) => {
-        item.classList.remove('open'); // Reset class for fresh animations
-        item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
-        item.style.transform = 'translateX(100%)'; // Reset to off-screen state
-        requestAnimationFrame(() => { // Trigger reflow to ensure animation runs
+      if (isOpen) {
+        items.forEach((item, index) => {
+          // Ensure items always animate in order
+          item.classList.remove('open'); // Reset class for fresh animations
+          item.style.transitionDelay = `${index * 0.2}s`; // Apply delay based on order
           item.classList.add('open');
         });
-      });
-    } else {
-      sortedItems.forEach((item) => {
-        item.style.transitionDelay = '';
-        item.classList.remove('open');
-      });
-    }
-  });
-</script>
+      } else {
+        items.forEach((item) => {
+          item.style.transitionDelay = ''; // Reset delay when menu closes
+          item.classList.remove('open');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
