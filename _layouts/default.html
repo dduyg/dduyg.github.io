@@ -83,33 +83,17 @@
     const items = [...dropNav.querySelectorAll('.item')];
 
     if (isOpen) {
-      // Temporarily remove the 'active' class for all items during animation
-      items.forEach((item) => {
-        item.classList.remove('active');
-        item.classList.remove('open'); // Reset animation class
-        item.style.transitionDelay = ''; // Reset any custom delay
-      });
-
-      // Animate items in
+      // When opening the menu, animate all items
       items.forEach((item, index) => {
+        item.classList.remove('open'); // Reset class for fresh animations
         item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
-        item.classList.add('open'); // Start animation
+        item.classList.add('open'); // Start animation for each item
       });
-
-      // Add 'active' class after animation delay (1s or whatever time you prefer)
-      setTimeout(() => {
-        items.forEach((item) => {
-          if (item.getAttribute('href') === window.location.pathname) {
-            item.classList.add('active'); // Add active class based on current page URL
-          }
-        });
-      }, 1000); // Wait for the animation to complete before applying 'active'
-      
     } else {
-      // When closing, reset all items
+      // When closing the menu, reset the animation
       items.forEach((item) => {
-        item.style.transitionDelay = '';
-        item.classList.remove('open');
+        item.style.transitionDelay = ''; // Remove delay
+        item.classList.remove('open'); // Reset the open class
       });
     }
   });
