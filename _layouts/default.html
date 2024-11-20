@@ -73,38 +73,28 @@
   {% endif %}
 
   <script>
-  const menuBtn = document.getElementById('menuBtn');
-  const dropNav = document.querySelector('.dropNav');
+    const menuBtn = document.getElementById('menuBtn');
+    const dropNav = document.querySelector('.dropNav');
 
-  menuBtn.addEventListener('click', () => {
-    const isOpen = menuBtn.classList.toggle('open');
-    dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.classList.toggle('open');
+      dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
 
-    const items = [...dropNav.querySelectorAll('.item')];
+      const items = [...dropNav.querySelectorAll('.item')];
 
-    if (isOpen) {
-      // Reset the active item so it can animate smoothly like the rest
-      items.forEach((item, index) => {
-        item.classList.remove('open'); // Reset class for fresh animations
-        item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
-        item.style.transform = 'translateX(100%)'; // Ensure they start off-screen
-        item.classList.add('open');
-      });
-
-      // After applying delay, we trigger the items to move in
-      setTimeout(() => {
-        items.forEach(item => {
-          item.style.transform = 'translateX(0)'; // Move into view
+      if (isOpen) {
+        items.forEach((item, index) => {
+          item.classList.remove('open'); // Reset class for fresh animations
+          item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
+          item.classList.add('open');
         });
-      }, 100);
-    } else {
-      items.forEach((item) => {
-        item.style.transitionDelay = '';
-        item.style.transform = 'translateX(100%)'; // Move back off-screen
-        item.classList.remove('open');
-      });
-    }
-  }); 
+      } else {
+        items.forEach((item) => {
+          item.style.transitionDelay = '';
+          item.classList.remove('open');
+        });
+      }
+    });
   </script>
 </body>
 </html>
