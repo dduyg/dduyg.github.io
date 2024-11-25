@@ -1,24 +1,21 @@
 main {
   max-width: 800px;
-  margin: 6em auto 0;
+  margin: 30vh auto 0;
   padding: 1.25em;
 }
-     
+
 header {
-  padding: 100px 0;
-  font-size: 1.4rem;
-  max-width: 75%;
+  margin-bottom: 40px;
 }
-@media only screen and (max-width:599px) {
-  header {
-    font-size: 1.1rem;
-  }
+
+.author {
+  margin-right: -5px;
+  text-align: right;     
+  font-family: "Anonymous Pro", monospace;
+  font-size: 11px;
+  letter-spacing: .04em;
 }
-header h1 {
-  color: #7B7B7B;
-  font-family: "Fira Sans", sans-serif;
-}
-header h1, header p {
-  margin: 0;
-  padding: 0;
+
+.description {
+  font-size: 22px;
 }
