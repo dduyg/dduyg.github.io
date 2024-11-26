@@ -154,7 +154,7 @@ h1, h2 {
 }
 @keyframes rotate { 0% {transform: rotateX(0deg);} 100% {transform: rotateX(360deg);} }
 
-@media screen and (min-width: 30em) { /* Navigation for larger screens */
+@media (min-width: 768px) { /* Navigation for larger screens */
   .siteHeader {
     padding: 1.5rem 4rem;
   }
