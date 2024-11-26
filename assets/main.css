@@ -17,7 +17,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --marker: #C9C9BF;
-  --back: #b3b3b3;
+  --back: #bbbbbb;
   --main-font: "Fira Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
