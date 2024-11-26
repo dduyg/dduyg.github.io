@@ -17,7 +17,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --marker: #C9C9BF;
-  --back: #dcdcdc;
+  --back: #b3b3b3;
   --main-font: "Fira Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
@@ -124,7 +124,7 @@ h1, h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
-  background: rgba(0, 0, 0, 0.8);
+  background: #898989;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
