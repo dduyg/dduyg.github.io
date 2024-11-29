@@ -43,7 +43,7 @@ header {
   }
 }
 .panel-active header {
-  color: var(--marker);
+  color: var(--assertive);
   font-size: min(8vw, 32px) !important;
   transform: rotate(0deg);
   transition: 0.5s ease;
@@ -139,12 +139,12 @@ header {
   font-style: italic;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: var(--marker);
+  text-decoration-color: var(--assertive);
   text-underline-offset: 4px;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 .panel-link:hover {
-  color: var(--marker);
+  color: var(--assertive);
   font-weight: bold;
 }
