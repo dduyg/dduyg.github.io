@@ -5,6 +5,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 ::-moz-selection { /* Code for Firefox */
   background: black;
@@ -127,7 +128,7 @@ h1, h2 {
   background: #898989;
   text-align: center;
   font-size: 1.8em;
-  font-family: "Syncopate", sans-serif;
+  font-family: "Zen Dots", serif;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
