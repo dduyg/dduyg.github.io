@@ -17,7 +17,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #bbbbbb;
+  --back: #999;
   --main-font: "Georama", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
@@ -38,14 +38,14 @@ a {
 }
 a.link {
   font-family: var(--mono-font);
-  color: #5a5a5a;
+  color: #666;
   cursor: pointer;
   font-size: 1.4em;
   text-transform: uppercase;
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
-  color: #848484;
+  color: #5a5a5a;
   filter: url("#turbulenceFilter");
 }
 
