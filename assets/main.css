@@ -45,7 +45,7 @@ a.link {
 }
 a.link:hover, a.link:focus {
   color: #848484;
-  filter: url("#verticalBlurFilter");
+  filter: url("#turbulenceFilter");
 }
 
 h1, h2 {
