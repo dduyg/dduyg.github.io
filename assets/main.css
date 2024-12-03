@@ -18,7 +18,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Georama", sans-serif;
+  --main-font: "DM Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -129,7 +129,7 @@ h1, h2 {
   text-align: center;
   font-size: 1.8em;
   text-transform: uppercase;
-  font-family: "Prosto One", sans-serif;
+  font-family: "Offside", sans-serif;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
