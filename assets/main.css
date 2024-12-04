@@ -14,11 +14,14 @@
   background: black;
   color: white;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Ruda", sans-serif;
+  --main-font: "Work Sans", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 
