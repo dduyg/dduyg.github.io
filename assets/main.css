@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 
 ::-moz-selection { /* Code for Firefox */
   background: black;
@@ -130,7 +129,7 @@ h1, h2 {
   text-align: center;
   font-size: 1.8em;
   text-transform: uppercase;
-  font-family: "Monoton", sans-serif;
+  font-family: "Audiowide", sans-serif;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
