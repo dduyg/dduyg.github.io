@@ -46,8 +46,7 @@ a.link {
   font-family: 'Pitch SemiBold', monospace;
   color: #666;
   cursor: pointer;
-  font-size: 1.4em;
-  text-transform: uppercase;
+  font-size: 1.5em;
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
