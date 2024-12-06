@@ -93,7 +93,7 @@ form textarea {
     color: black;
     font-weight: bold;
     font-size: 21px;
-    font-family: "Syncopate", sans-serif;
+    font-family: var(--feature-font);
     border: none;
     border-radius: 50px;
     box-shadow: 0 0 0 2px black;
