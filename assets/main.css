@@ -50,7 +50,7 @@ a.link {
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
-  filter: url("#dustFilter");
+  filter: url("#outlineHover");
 }
 
 h1, h2 {
