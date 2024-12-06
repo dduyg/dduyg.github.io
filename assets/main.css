@@ -43,8 +43,7 @@ a.link {
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
-  color: #5a5a5a;
-  filter: url("#turbulenceFilter");
+  filter: url("#outlineHover");
 }
 
 h1, h2 {
@@ -139,10 +138,8 @@ h1, h2 {
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-.dropNav .item.active {
-  color: rgba(0, 0, 0, 0.1);
-  -webkit-text-stroke: 1px var(--color-main);
-  text-stroke: 1px var(--color-main);
+.dropNav .item.active span {
+  filter: url("#outlineHover");
 }
 .item.active::before {
   content: '';
