@@ -12,6 +12,13 @@
   color: white;
 }
 
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/NeueMachina-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
@@ -35,7 +42,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Major Mono Display", monospace;
+  font-family: 'Neue Machina', sans-serif;
   color: #666;
   cursor: pointer;
   font-size: 1.4em;
@@ -125,7 +132,7 @@ h1, h2 {
   background: #898989;
   text-align: center;
   font-size: 1.8em;
-  font-family: "Major Mono Display", monospace;
+  font-family: 'Neue Machina', sans-serif;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
