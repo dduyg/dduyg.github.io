@@ -11,7 +11,7 @@ header {
 .author {
   margin-right: -5px;
   text-align: right;     
-  font-family: "Anonymous Pro", monospace;
+  font-family: var(--mono-font);
   font-size: 11px;
   letter-spacing: .04em;
 }
