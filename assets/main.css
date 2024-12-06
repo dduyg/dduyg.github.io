@@ -213,9 +213,7 @@ footer {
 }
 .copyright {
   flex-basis: 40%;
-  font-family: "Fira Code", monospace !important;
   font-size: .7rem;
-  font-weight: bold;
   opacity: 0.5;
 }
 .social-links, .support {  
