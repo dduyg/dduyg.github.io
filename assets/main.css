@@ -142,6 +142,7 @@ h1, h2 {
 
 
 .dropNav .item.active span {
+  color: transparent;
   filter: url("#outlineHover");
 }  
 .item.active::before {
