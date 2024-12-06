@@ -46,7 +46,7 @@ a.link {
 }
 a.link:hover, a.link:focus {
   color: #5a5a5a;
-  filter: url("#turbulenceFilter");
+  filter: url("#outlineHover");
 }
 
 h1, h2 {
@@ -142,7 +142,7 @@ h1, h2 {
 }
 
 .dropNav .item.active {
-  filter: url("#outlineHover");
+  filter: url("#outlineFilter");
 }
 .item.active::before {
   content: '';
