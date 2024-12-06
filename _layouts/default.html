@@ -10,7 +10,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Sofia+Sans+Extra+Condensed:wght@500&family=Source+Code+Pro&family=Syncopate&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     
   <script src="https://kit.fontawesome.com/63e03a9b9c.js" crossorigin="anonymous"></script>  
@@ -58,7 +58,7 @@
       
       <filter id="outlineHover" x="0" y="0" width="100%" height="100%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
         <feMorphology operator="dilate" radius="1" in="SourceAlpha" result="morphology"/>
-        <feFlood flood-color="#000000" flood-opacity="1" result="flood"/>
+        <feFlood flood-color="#2F2F2F" flood-opacity="1" result="flood"/>
         <feComposite in="flood" in2="morphology" operator="in" result="composite"/>
         <feComposite in="composite" in2="SourceAlpha" operator="out" result="outline"/>
       </filter>
