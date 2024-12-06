@@ -16,7 +16,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Alegreya Sans", sans-serif;
+  --main-font: "Hanken Grotesk", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -126,7 +126,7 @@ h1, h2 {
   text-align: center;
   font-size: 1.8em;
   text-transform: uppercase;
-  font-family: "Monoton", sans-serif;
+  font-family: "Major Mono Display", monospace;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
