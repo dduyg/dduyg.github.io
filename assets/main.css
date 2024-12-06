@@ -16,7 +16,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Hanken Grotesk", sans-serif;
+  --main-font: "Syne", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -43,7 +43,7 @@ a.link {
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
-  filter: url("#outlineHover");
+  filter: url("#dustFilter");
 }
 
 h1, h2 {
