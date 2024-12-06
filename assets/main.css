@@ -25,7 +25,8 @@
   --assertive: #C9C9BF;
   --back: #999;
   --main-font: "Syne", sans-serif;
-  --mono-font: "Source Code Pro", monospace;
+  --mono-font: 'Pitch SemiBold', monospace;
+  --feature-font: "Syncopate", sans-serif;
 }
 
 body {
@@ -43,7 +44,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: 'Pitch SemiBold', monospace;
+  font-family: var(--feature-font);
   color: #666;
   cursor: pointer;
   font-size: 1.5em;
@@ -54,7 +55,7 @@ a.link:hover, a.link:focus {
 }
 
 h1, h2 {
-  font-family: "Syncopate", sans-serif;
+  font-family: var(--feature-font);
 }
 
 
@@ -133,7 +134,7 @@ h1, h2 {
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
-  font-family: "Syncopate", sans-serif;
+  font-family: var(--feature-font);
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
