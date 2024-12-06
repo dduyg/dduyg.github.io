@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 ::-moz-selection { /* Code for Firefox */
   background: black;
   color: white;
