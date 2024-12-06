@@ -18,7 +18,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Schibsted Grotesk", sans-serif;
+  --main-font: "Lato", sans-serif;
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -45,7 +45,6 @@ a.link {
   transition: color 0.3s;
 }
 a.link:hover, a.link:focus {
-  color: #5a5a5a;
   filter: url("#outlineHover");
 }
 
@@ -142,7 +141,9 @@ h1, h2 {
 }
 
 .dropNav .item.active {
-  filter: url("#outlineFilter");
+  color: rgba(0, 0, 0, 0.1);
+  -webkit-text-stroke: 1px var(--color-main);
+  text-stroke: 1px var(--color-main);
 }
 .item.active::before {
   content: '';
