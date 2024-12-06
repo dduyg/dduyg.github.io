@@ -11,7 +11,6 @@
   background: black;
   color: white;
 }
-
 @font-face {  
     font-family: 'Pitch SemiBold';
     src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pitch-SemiBold.woff2') format('woff2'),
@@ -25,7 +24,7 @@
   --assertive: #C9C9BF;
   --back: #999;
   --main-font: "Syne", sans-serif;
-  --mono-font: 'Pitch SemiBold', monospace;
+  --mono-font: 'Pitch SemiBold', 'Source Code Pro', monospace;
   --feature-font: "Syncopate", sans-serif;
 }
 
