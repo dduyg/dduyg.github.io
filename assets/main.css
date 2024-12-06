@@ -140,11 +140,14 @@ h1, h2 {
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-.dropNav .item.active {
-  color: rgba(0, 0, 0, 0.1);
-  -webkit-text-stroke: 1px var(--color-main);
-  text-stroke: 1px var(--color-main);
+.dropNav .item span {
+  display: inline-block;
+  transition: filter 0.3s ease;
 }
+.dropNav .item.active span {
+  filter: url("#outlineHover");
+}
+  
 .item.active::before {
   content: '';
   display: inline-block;
