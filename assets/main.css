@@ -127,7 +127,7 @@ h1, h2 {
   text-align: center;
   font-size: 1.8em;
   text-transform: uppercase;
-  font-family: "Syncopate", sans-serif;
+  font-family: 'Kalnia', serif;
   cursor: pointer;
   transition: transform 0.5s ease, opacity 0.5s ease;
   transform: translateX(100%); /* Initially out of screen on the right */
