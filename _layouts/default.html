@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Sofia+Sans+Extra+Condensed:wght@500&family=Source+Code+Pro&family=Syncopate&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     
   <script src="https://kit.fontawesome.com/63e03a9b9c.js" crossorigin="anonymous"></script>  
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
@@ -56,11 +56,11 @@
     <svg height="0" width="0" style="position: absolute;"> 
       <!--Don't hide this with display: none; or the filter won't show on Firefox! -->
       
-      <filter id="outlineFilter" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+      <filter id="outlineHover" x="0" y="0" width="100%" height="100%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
         <feMorphology operator="dilate" radius="0.5" in="SourceAlpha" result="morphology"/>
-        <feFlood flood-color="#010111" flood-opacity="1" result="flood"/> <!-- Set your stroke color here -->
+        <feFlood flood-color="#5a5a5a" flood-opacity="1" result="flood"/>
         <feComposite in="flood" in2="morphology" operator="in" result="composite"/>
-        <feComposite in="composite" in2="SourceAlpha" operator="out" result="composite1"/>
+        <feComposite in="composite" in2="SourceAlpha" operator="out" result="outline"/>
       </filter>
     </svg>
 
