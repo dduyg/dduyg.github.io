@@ -48,14 +48,15 @@ a.link {
   cursor: pointer;
   font-size: 1.5em;
   
-  background-image: linear-gradient(#5a5a5a, #5a5a5a);
-  background-size: 0% 0.3ex;
+  padding-bottom: 2px;
+  background-image: linear-gradient(to right, #666, #666);
+  background-size: 0% 3px;
   background-repeat: no-repeat;
   background-position: left bottom;
   transition: background-size 0.36s ease-in-out;
 }
 a.link:hover, a.link:focus {
-  background-size: 100% 0.3ex;
+  background-size: 100% 3px;
 }
 
 h1, h2 {
