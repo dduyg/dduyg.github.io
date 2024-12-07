@@ -16,7 +16,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Dosis", sans-serif;
+  --main-font: "Hanken Grotesk", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
@@ -74,7 +74,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   animation: stretch 1s infinite alternate;
 }
@@ -100,7 +100,7 @@ h1, h2 {
   border: 1.5px solid currentColor;
   transition: transform 0.6s ease, border-color 0.6s ease;
   pointer-events: none;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   transform: scaleY(0.5);
   transform-origin: center top;
 }
