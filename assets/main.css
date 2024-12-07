@@ -11,20 +11,13 @@
   background: black;
   color: white;
 }
-@font-face {  
-    font-family: 'Pitch Bold';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pitch-Bold.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pitch-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
   --main-font: "Syne", sans-serif;
-  --mono-font: 'Pitch Bold', 'Source Code Pro', monospace;
+  --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
 
