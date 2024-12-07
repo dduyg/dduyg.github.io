@@ -152,7 +152,7 @@ h1, h2 {
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
-  background-color: var(--color-main);
+  background-color: rgba(0, 0, 0, 0.7);
   margin-right: 0.6em;
   animation: rotate 1.5s ease-in-out infinite;
 }
