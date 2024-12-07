@@ -151,6 +151,7 @@ h1, h2 {
 }
 
 .dropNav .item.active span {
+  font-weight: bold;
   filter: url("#outlineHover");
 }
 .item.active::before {
