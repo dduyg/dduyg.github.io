@@ -15,7 +15,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #999;
+  --back: #cecece;
   --main-font: "Hanken Grotesk", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", sans-serif;
