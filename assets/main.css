@@ -12,11 +12,19 @@
   color: white;
 }
 
+@font-face {
+            font-family: 'Sporting Grotesque';
+            src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Sporting_Grotesque-Regular.woff2') format('woff2'),
+                 url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Sporting_Grotesque-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #C3C3C3;
-  --main-font: "Syne", sans-serif;
+  --main-font: 'Sporting Grotesque', sans-serif;
   --mono-font: "Source Code Pro", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
