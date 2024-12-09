@@ -16,7 +16,7 @@
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #D7D6D5;
-  --main-font: "Red Hat Display", sans-serif;
+  --main-font: "Epilogue", sans-serif;
   --mono-font: "Source Code Pro", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
@@ -214,6 +214,7 @@ footer {
 }
 .copyright {
   flex-basis: 40%;
+  font-family: "Fira Code", monospace;
   font-size: .7rem;
   font-weight: bold;
   opacity: 0.5;
