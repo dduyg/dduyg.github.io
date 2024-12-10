@@ -12,11 +12,19 @@
   color: white;
 }
 
+@font-face {
+      font-family: 'Adieu';
+      src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Adieu.woff2') format('woff2'),
+           url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Adieu.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #999;
-  --main-font: "Georama", sans-serif;
+  --main-font: 'Adieu', sans-serif;
   --mono-font: "Sometype Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
