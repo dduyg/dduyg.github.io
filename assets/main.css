@@ -15,7 +15,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #C7C2C6;
+  --back: #FAF5F9;
   --main-font: "Karla", sans-serif; 
   --mono-font: "Sometype Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
@@ -293,15 +293,9 @@ nav, main, footer {
   -webkit-tap-highlight-color: transparent;
 }
 nav, footer {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 image, svg {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   pointer-events: none;
 }
