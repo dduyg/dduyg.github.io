@@ -141,11 +141,11 @@ header {
 
 .panel-link {
   filter: url("#outlineHover");
-  font-family: var(--feature-font);
+  font-weight: bold;
   transition: filter 0.5s ease;
   cursor: pointer;
 }
 .panel-link:hover, .panel-link:focus {
   filter: none;
-  text-decoration: underline;
+  font-weight: normal;
 }
