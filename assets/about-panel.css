@@ -85,7 +85,7 @@ header {
 .content {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 0 20px;
+  padding: 0 7%;
   overflow-x: hidden;
   overflow-y: auto;
   max-width: 800px;
@@ -141,6 +141,7 @@ header {
 
 .panel-link {
   filter: url("#outlineHover");
+  font-family: var(--feature-font);
   transition: filter 0.5s ease;
   cursor: pointer;
 }
