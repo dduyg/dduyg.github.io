@@ -96,7 +96,7 @@ h1, h2 {
   cursor: pointer;
 
   position: relative;
-  overflow: hidden;
+  color: var(--back);
 }
 .siteHeader_title span::before,
 .siteHeader_title span::after {
@@ -104,7 +104,7 @@ h1, h2 {
   position: absolute;
   top: 0;
   left: 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--color-main);
 }
 .siteHeader_title span::before {clip-path: inset(0 0 50% 0); transform: translateX(-2px); animation: slice 1.2s infinite;}
 .siteHeader_title span::after {clip-path: inset(50% 0 0 0); transform: translateX(2px); animation: slice 1.2s infinite reverse;}
