@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html { /* Hide only page's main scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
 ::-moz-selection { /* Code for Firefox */
   background: black;
   color: white;
@@ -10,6 +17,22 @@
 ::selection {
   background: black;
   color: white;
+}
+button, a, input, textarea {
+  -webkit-tap-highlight-color: transparent;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  outline: none;
+}
+button:focus, a:focus, input:focus, textarea:focus {
+  outline: none;
+}
+nav, footer {
+  user-select: none;
+}
+image, svg {
+  user-select: none;
+  pointer-events: none;
 }
 
 :root {
@@ -285,35 +308,6 @@ footer {
   70%{transform:translateY(15%)}
   80%{transform:translate(3%,35%)}
   90%{transform:translate(-10%,10%)}
-}
-
-/********************************/
-nav, main, footer {
-  outline: none;
-  -webkit-tap-highlight-color: transparent;
-}
-nav, footer {
-  user-select: none;
-}
-image, svg {
-  user-select: none;
-  pointer-events: none;
-}
-
-::-webkit-scrollbar {  /* For Webkit-based browsers */
-    width: 5px;
-    height: 5px;
-}
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-* {  /* For Firefox */
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
 }
 
 /************************************************
