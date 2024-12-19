@@ -94,9 +94,9 @@ h1, h2 {
   letter-spacing: 2px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  animation: stretch 1s infinite alternate;
+  animation: static 1s infinite;
 }
-@keyframes stretch { 0% {transform: scaleY(1);} 50% {transform: scaleY(1.2);} 100% {transform: scaleY(1);} }
+@keyframes static { 0%, 100% { filter: none; } 25% { filter: blur(1px) contrast(150%); } 50% { filter: brightness(150%) contrast(200%); } 75% { filter: blur(0.5px) brightness(100%) contrast(100%); } }
 
 #aside-menu {
   display: none; /* Hide this by default for smaller screens */
