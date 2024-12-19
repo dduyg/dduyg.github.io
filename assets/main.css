@@ -64,7 +64,7 @@ a.link {
   background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
-  transition: background-size 0.36s ease-in-out;
+  transition: background-size 0.5s ease-in-out;
 }
 a.link:hover, a.link:focus {
   background-size: 100% 2px;
