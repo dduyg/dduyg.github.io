@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 html { /* Hide only page's main scrollbar */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 html::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Edge */
+  display: none;
 }
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
   background: black;
   color: white;
 }
