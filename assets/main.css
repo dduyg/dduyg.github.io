@@ -31,7 +31,7 @@ html::-webkit-scrollbar-thumb {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #FAF5F9;
-  --main-font: "Karla", sans-serif; 
+  --main-font: "SUSE", sans-serif;
   --mono-font: "Sometype Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
