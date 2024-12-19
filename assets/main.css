@@ -45,7 +45,7 @@ body {
   font-family: var(--main-font);
   -webkit-font-smoothing: antialiased;
 }
-nav, main, footer {
+nav, main, footer, a {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
