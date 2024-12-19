@@ -3,20 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+html { /* Hide only page's main scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 html::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-}
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-html::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+  display: none; /* Chrome, Safari, and Edge */
 }
 ::-moz-selection { /* Code for Firefox */
   background: black;
