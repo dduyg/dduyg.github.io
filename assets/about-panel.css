@@ -95,25 +95,29 @@ header {
 
 /* Custom scrollbar */
 .content::-webkit-scrollbar {
-  width: 1.1em;
+    width: 1.3em;
 }
 .content::-webkit-scrollbar-track {
-  background: transparent;
+    background: transparent;
 }
 .content::-webkit-scrollbar-thumb,
 .content::-webkit-scrollbar-thumb:hover {
-  background: url('https://raw.githubusercontent.com/dduyg/dduyg.github.io/main/assets/images/scroll.png') no-repeat center center;
-  background-size: contain;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23FFCC00" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.054 97.054" xml:space="preserve"%3E%3Cg id="SVGRepo_iconCarrier"%3E%3Cg%3E%3Cg%3E%3Cpath d="M63.027,0h-29v29h29V0z M58.027,24h-19V5h19V24z"%3E%3C/path%3E%3Crect x="46.026" y="33.952" width="5" height="28.845"%3E%3C/rect%3E%3Cpath d="M48.527,66.804c-8.34,0-15.125,6.785-15.125,15.125c0,8.341,6.785,15.125,15.125,15.125s15.125-6.784,15.125-15.125 C63.652,73.589,56.867,66.804,48.527,66.804z M48.527,92.054c-5.583,0-10.125-4.542-10.125-10.125s4.542-10.125,10.125-10.125 s10.125,4.542,10.125,10.125S54.11,92.054,48.527,92.054z"%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 @-moz-document url-prefix() { /* Firefox scrollbar */
-  .content {
-    scrollbar-color: #898989 transparent; 
-    scrollbar-width: thin;
-  }
-  .content::-webkit-scrollbar-thumb {
-    background: url('https://raw.githubusercontent.com/dduyg/dduyg.github.io/main/assets/images/scroll.png') no-repeat center center;
-    background-size: contain;
-  }
+    .content {
+        scrollbar-color: #FFCC00 transparent;
+        scrollbar-width: thin;
+    }
+    .content::-webkit-scrollbar-thumb {
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23FFCC00" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.054 97.054" xml:space="preserve"%3E%3Cg id="SVGRepo_iconCarrier"%3E%3Cg%3E%3Cg%3E%3Cpath d="M63.027,0h-29v29h29V0z M58.027,24h-19V5h19V24z"%3E%3C/path%3E%3Crect x="46.026" y="33.952" width="5" height="28.845"%3E%3C/rect%3E%3Cpath d="M48.527,66.804c-8.34,0-15.125,6.785-15.125,15.125c0,8.341,6.785,15.125,15.125,15.125s15.125-6.784,15.125-15.125 C63.652,73.589,56.867,66.804,48.527,66.804z M48.527,92.054c-5.583,0-10.125-4.542-10.125-10.125s4.542-10.125,10.125-10.125 s10.125,4.542,10.125,10.125S54.11,92.054,48.527,92.054z"%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
 
 @media screen and (min-width: 1200px) {
