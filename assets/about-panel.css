@@ -140,15 +140,11 @@ header {
 }
 
 .panel-link {
-  font-style: italic;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--assertive);
-  text-underline-offset: 4px;
-  transition: color 0.3s ease;
+  filter: url("#outlineHover");
+  transition: filter 0.3s ease;
   cursor: pointer;
+  font-weight: bold;
 }
 .panel-link:hover {
-  color: var(--assertive);
-  font-weight: bold;
+  filter: none;
 }
