@@ -10,6 +10,19 @@ html { /* Hide only page's main scrollbar */
 html::-webkit-scrollbar {
   display: none;
 }
+  .hidden { /* Initial animation state */
+      opacity: 0;
+      transform: translateY(-96px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }  
+    .visible { /* Final animation state */
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .no-animate { /* Add this to exclude elements→ class="no-animate" */
+      opacity: 1;
+      transform: none;
+    }
 ::-moz-selection {
   background: black;
   color: white;
