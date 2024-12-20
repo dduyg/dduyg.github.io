@@ -95,7 +95,6 @@ h1, h2 {
 }
 .siteHeader_title span {
   position: relative;
-  color: transparent;
 }
 .siteHeader_title span::before,
 .siteHeader_title span::after {
@@ -103,12 +102,11 @@ h1, h2 {
   position: absolute;
   top: 0;
   left: 0;
-  color: var(--color-main);
   letter-spacing: 2px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-.siteHeader_title span::before {clip-path: inset(0 0 50% 0); transform: translateX(-2px); animation: slice 2s infinite;}
-.siteHeader_title span::after {clip-path: inset(50% 0 0 0); transform: translateX(2px); animation: slice 2s infinite reverse;}
+.siteHeader_title span::before {clip-path: inset(0 0 50% 0); transform: translateX(-2px); animation: slice 1.5s infinite;}
+.siteHeader_title span::after {clip-path: inset(50% 0 0 0); transform: translateX(2px); animation: slice 1.5s infinite reverse;}
 @keyframes slice { 0%, 100% {transform: translateX(0);} 50% {transform: translateX(5px);} }
 
 #aside-menu {
