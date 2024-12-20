@@ -92,8 +92,6 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   cursor: pointer;
-}
-.siteHeader_title span {
   position: relative;
 }
 .siteHeader_title span::before,
