@@ -69,19 +69,38 @@
       </filter>
     </svg>
 
-  {% if page.scrollreveal %}
-  <script src="https://unpkg.com/scrollreveal"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      ScrollReveal().reveal('{{ page.scrollreveal }}', {
-        origin: 'top',
-        distance: '96px',
-        duration: 1000,
-        interval: 200
+    document.addEventListener('DOMContentLoaded', () => {
+      // Select all elements within <main>, excluding those with the "no-animate" class
+      const mainElements = Array.from(document.querySelectorAll('main *'))
+        .filter(el => !el.classList.contains('no-animate'));
+
+      // Add the "hidden" class to elements
+      mainElements.forEach((el) => {
+        el.classList.add('hidden');
       });
-    }); 
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Calculate delay in reverse order
+              const delay = (mainElements.length - mainElements.indexOf(entry.target)) * 100; // Adjust stagger delay between elements (100ms)
+              setTimeout(() => {
+                entry.target.classList.add('visible');
+              }, delay);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      // Observe all animatable elements
+      mainElements.forEach((el) => {
+        observer.observe(el);
+      });
+    });
   </script>
-  {% endif %}
 
   <script>
     const menuBtn = document.getElementById('menuBtn');
