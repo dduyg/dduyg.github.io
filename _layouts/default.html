@@ -68,21 +68,19 @@
         <feComposite in="composite" in2="SourceAlpha" operator="out" result="outline"/>
       </filter>
     </svg>
-
-  {% if page.scrollreveal %}
+  
   <script src="https://unpkg.com/scrollreveal"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      ScrollReveal().reveal('{{ page.scrollreveal }}', {
-        origin: 'top',
-        distance: '50px',
-        duration: 1000,
-        interval: 200,
-        reverse: true   
-      });
-    }); 
+      ScrollReveal().reveal('main > *', {  // Selects all child elements inside <main>
+        origin: 'top',       // Can be 'top' or 'bottom' depending on your preference
+        distance: '50px',    // How far the elements travel in
+        duration: 1000,      // Duration of each animation (1 second)
+        interval: 200,       // Delay between each element's reveal
+        reverse: true        // Reverse the reveal order (latest comes first)
+        });
+    });
   </script>
-  {% endif %}
 
   <script>
     const menuBtn = document.getElementById('menuBtn');
