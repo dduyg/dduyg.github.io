@@ -126,7 +126,7 @@ h1, h2 {
   border-radius: 50%;
   border: 1.5px solid currentColor;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  transition: transform 0.6s ease, border-color 0.6s ease;
+  transition: transform 0.6s ease;
   pointer-events: none;
   transform: scaleY(0.5);
   transform-origin: center top;
@@ -137,7 +137,6 @@ h1, h2 {
 
 .siteHeader_menuBtn.open .ring {
   transform: translateY(6px) scaleY(0.8);
-  border-color: rgba(0, 0, 0, 0.9);
 }
 
 .dropNav {
