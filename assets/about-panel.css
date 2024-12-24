@@ -31,7 +31,6 @@ section {
 
 /*  Panel */
 header {
-  font-family: var(--feature-font);
   transform: rotate(-90deg);
   font-size: min(5.3vw, 32px);
   margin: 0;
