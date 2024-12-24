@@ -35,7 +35,7 @@ header {
   transform: rotate(-90deg);
   font-size: min(5.3vw, 32px);
   margin: 0;
-  padding: 1em;
+  padding: 1.4em;
   white-space: nowrap;
   line-height: 1;
 }
