@@ -35,7 +35,7 @@ header {
   transform: rotate(-90deg);
   font-size: min(5.3vw, 32px);
   margin: 0;
-  padding: 1.4em;
+  padding: 0;
   white-space: nowrap;
   line-height: 1;
 }
@@ -50,6 +50,10 @@ header {
   transform: rotate(0deg);
   transition: 0.5s ease;
   white-space: normal;
+}
+#bio.panel-inactive header,
+#about.panel-inactive header {
+  padding: 1em;
 }
 
 .profile-img {
