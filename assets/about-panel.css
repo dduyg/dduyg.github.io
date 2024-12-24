@@ -123,10 +123,21 @@ header {
 }
 
 .panel-link {
-  filter: url("#outlineHover");
-  transition: filter 0.5s ease;
+  position: relative;
   cursor: pointer;
 }
-.panel-link:hover, .panel-link:focus {
-  filter: none;
+.panel-link::after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  width: 50%;
+  height: 1px;
+  border-bottom: 3px solid;
+  transition: 0.4s;
+}
+.panel-link:hover::after,
+.panel-link:focus::after {
+  width: 100%;
+  left: 0;
 }
