@@ -73,6 +73,7 @@ header {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
   overflow-y: auto;
+  padding: 0 5%;
   -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */ 
 }
 
@@ -133,7 +134,7 @@ header {
   left: 25%;
   width: 50%;
   height: 1px;
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   transition: 0.4s;
 }
 .panel-link:hover::after,
