@@ -72,7 +72,8 @@ header {
 .content {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 20px 20px 20px 7%;
+  padding-right: 20px; 
+  padding-left: 8%;
   overflow-y: auto;
   overflow-x: hidden;
   max-width: 800px;
