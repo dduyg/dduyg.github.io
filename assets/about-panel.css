@@ -72,11 +72,9 @@ header {
 .content {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 0 7%;
+  padding: 20px 20px 20px 7%;
   overflow-y: auto;
   overflow-x: hidden;
-  width: calc(100% - 1.3em);
-  height: 100%;
   max-width: 800px;
   -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */ 
 }
