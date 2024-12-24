@@ -37,6 +37,7 @@ header {
   margin: 0;
   padding: 10px;
   white-space: nowrap;
+  line-height: 1;
 }
 @media screen and (min-width: 1200px) {
   header {
