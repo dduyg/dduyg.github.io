@@ -69,15 +69,6 @@ header {
   margin-left: 0.3em;
   pointer-events: none;
 }
-#bio.panel-inactive .profile-img {
-  width: 3em !important;
-}
-#bio.panel-active header .profile-img {
-  display: none; /* Hide the image in the header */
-}
-#bio.panel-inactive .name { 
-  display: none; /* Hide the text */
-}
 #about.panel-inactive header { 
   padding: 1em;
 }
