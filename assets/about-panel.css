@@ -16,13 +16,14 @@ main {
 }
 
 section {
-  border-right: 0.0625rem black solid;
+  border-right: 0.0625rem solid black;
   display: flex;
   flex: 1;
   height: 70%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 #approach {
   border-right: none;
@@ -71,13 +72,18 @@ header {
 
 .content {
   display: none;
-  font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 0 7%;
-  overflow-x: hidden;
+  font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */  
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0 0 6%;
+  margin: 0;
+  width: calc(100% - 1.3em);
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   max-width: 800px;
-  max-height: calc(100% - 20px);
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */ 
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
 }
 
 /* Custom scrollbar */
