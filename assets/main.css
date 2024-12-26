@@ -104,21 +104,12 @@ h1, h2 {
 .siteHeader_title {
   display: block;
   font-size: 1.6rem;
-  cursor: pointer;
   letter-spacing: 2px;
-  position: relative;
-}
-.siteHeader_title span::before,
-.siteHeader_title span::after {
-  content: '/dduyg';
-  position: absolute;
-  top: 0;
-  left: 0;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  cursor: pointer;
+  animation: glitch 2s linear infinite;
 }
-.siteHeader_title span::before {clip-path: inset(0 0 50% 0); transform: translateX(-2px); animation: slice 1.5s infinite;}
-.siteHeader_title span::after {clip-path: inset(50% 0 0 0); transform: translateX(2px); animation: slice 1.5s infinite reverse;}
-@keyframes slice { 0%, 100% {transform: translateX(0);} 50% {transform: translateX(5px);} }
+@keyframes glitch { 0% {transform: translateX(0);} 20% {transform: translateX(-5px);} 40% {transform: translateX(5px);} 60% {transform: translateX(-5px);} 80% {transform: translateX(5px);} 100% {transform: translateX(0);} }
 
 #aside-menu {
   display: none; /* Hide this by default for smaller screens */
