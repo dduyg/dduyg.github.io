@@ -22,7 +22,7 @@
 </head>
 <body>
   <div class="siteHeader">
-    <a class="siteHeader_title" href="{{ site.baseurl }}/"><span>/dduyg</span></a>
+    <a class="siteHeader_title" href="{{ site.baseurl }}/">/dduyg</a>
     <nav id="aside-menu">
       <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
       <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
@@ -74,8 +74,8 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       ScrollReveal().reveal('{{ page.scrollreveal }}', {
-        origin: 'top',
-        distance: '96px',
+        origin: 'bottom',
+        distance: '50px',
         duration: 1000,
         interval: 200
       });
