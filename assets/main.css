@@ -10,19 +10,6 @@ html { /* Hide only page's main scrollbar */
 html::-webkit-scrollbar {
   display: none;
 }
-  .hidden { /* Initial animation state */
-      opacity: 0;
-      transform: translateY(-96px);
-      transition: opacity 0.5s ease, transform 0.5s ease;
-    }  
-    .visible { /* Final animation state */
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .no-animate { /* Add this to exclude elements→ class="no-animate" */
-      opacity: 1;
-      transform: none;
-    }
 ::-moz-selection {
   background: black;
   color: white;
@@ -35,7 +22,7 @@ html::-webkit-scrollbar {
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #A9A9A9;
+  --back: #D3CED2;
   --main-font: "SUSE", sans-serif;
   --mono-font: "Sometype Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
@@ -105,11 +92,11 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  animation: glitch 2s linear infinite;
+  animation: wave 1s infinite alternate;
 }
-@keyframes glitch { 0% {transform: translateX(0);} 20% {transform: translateX(-5px);} 40% {transform: translateX(5px);} 60% {transform: translateX(-5px);} 80% {transform: translateX(5px);} 100% {transform: translateX(0);} }
+@keyframes wave { 0%, 100% {transform: scaleY(1);} 25% {transform: scaleY(1.2);} 50% {transform: scaleY(0.8);} }
 
 #aside-menu {
   display: none; /* Hide this by default for smaller screens */
@@ -129,7 +116,7 @@ h1, h2 {
   height: 100%;
   border-radius: 50%;
   border: 1.5px solid currentColor;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   transition: transform 0.6s ease;
   pointer-events: none;
   transform: scaleY(0.5);
