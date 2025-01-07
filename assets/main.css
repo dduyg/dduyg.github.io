@@ -20,9 +20,8 @@ html::-webkit-scrollbar {
 }
 
 @font-face {
-  font-family: 'ObjectSans-Regular';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ObjectSans-Regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ObjectSans-Regular.woff') format('woff');
+  font-family: 'Grotta';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Grotta-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -32,7 +31,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #888;
-  --main-font: 'ObjectSans-Regular', sans-serif;
+  --main-font: 'Grotta', sans-serif;
   --mono-font: "Nova Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
