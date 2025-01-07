@@ -19,11 +19,20 @@ html::-webkit-scrollbar {
   color: white;
 }
 
+@font-face {
+  font-family: 'ObjectSans-Regular';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ObjectSans-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ObjectSans-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #D3CED2;
-  --main-font: "Host Grotesk", sans-serif;
+  --main-font: 'ObjectSans-Regular', sans-serif;
   --mono-font: "Nova Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
