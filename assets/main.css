@@ -33,7 +33,7 @@ html::-webkit-scrollbar {
   --back: #888;
   --main-font: 'Grotta', sans-serif;
   --mono-font: "Nova Mono", monospace;
-  --feature-font: "Major Mono Display", monospace;
+  --feature-font: "Syncopate", sans-serif;
 }
 
 body {
