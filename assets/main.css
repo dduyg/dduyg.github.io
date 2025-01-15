@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #bfbfbf;
-  --main-font: "Mohave", sans-serif;
+  --main-font: "Hanken Grotesk", sans-serif;
   --mono-font: "Share Tech Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
