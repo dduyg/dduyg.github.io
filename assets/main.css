@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #bfbfbf;
   --main-font: "Bricolage Grotesque", sans-serif;
-  --mono-font: "Nova Mono", monospace;
+  --mono-font: "IBM Plex Mono", monospace;
   --feature-font: "Syncopate", sans-serif;
 }
 
