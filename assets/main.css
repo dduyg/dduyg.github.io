@@ -92,6 +92,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
+  font-family: var(--mono-font);
   
   cursor: pointer;
   animation: wave 2s infinite alternate;
