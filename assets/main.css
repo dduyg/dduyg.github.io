@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #bfbfbf;
-  --main-font: "Source Sans 3", sans-serif;
+  --main-font: "Raleway", sans-serif;
   --mono-font: "Ubuntu Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -94,25 +94,10 @@ h1, h2 {
   letter-spacing: 2px;
   font-family: var(--mono-font);
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
-  cursor: pointer; 
-  position: relative;
-} 
-.siteHeader_title::after { 
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: gray;
-  clip-path: inset(50% 0 0 0);
-  animation: line-distortion 1s infinite;
+  cursor: pointer;
+  animation: wave 2s infinite alternate;
 }
-@keyframes line-distortion {
-  0% {clip-path: inset(0 0 90% 0);} 
-  50% {clip-path: inset(70% 0 20% 0);}
-  100% {clip-path: inset(0 0 90% 0);}
-}
+@keyframes wave { 0%, 100% {transform: scaleY(1);} 25% {transform: scaleY(1.2);} 50% {transform: scaleY(0.8);} }
 
 #aside-menu {
   display: none; /* Hide this by default for smaller screens */
