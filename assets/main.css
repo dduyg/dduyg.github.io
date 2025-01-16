@@ -19,13 +19,21 @@ html::-webkit-scrollbar {
   color: white;
 }
 
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/PPNeueMontreal-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #bfbfbf;
-  --main-font: "Ruda", sans-serif;
+  --main-font: 'PP Neue Montreal', sans-serif;
   --mono-font: "Ubuntu Mono", monospace;
-  --feature-font: "Syncopate", monospace;
+  --feature-font: "Doto", monospace;
 }
 
 body {
