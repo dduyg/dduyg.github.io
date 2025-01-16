@@ -23,9 +23,9 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #bfbfbf;
-  --main-font: "Ruda", sans-serif;
+  --main-font: "Raleway", sans-serif;
   --mono-font: "Ubuntu Mono", monospace;
-  --feature-font: "Syncopate", monospace;
+  --feature-font: "Ruda", monospace;
 }
 
 body {
