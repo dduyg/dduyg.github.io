@@ -25,7 +25,7 @@ html::-webkit-scrollbar {
   --back: #bfbfbf;
   --main-font: "Raleway", sans-serif;
   --mono-font: "Ubuntu Mono", monospace;
-  --feature-font: "Ruda", monospace;
+  --feature-font: "Syncopate", monospace;
 }
 
 body {
@@ -71,7 +71,7 @@ a.link:hover, a.link:focus {
 }
 
 h1, h2 {
-  font-family: var(--feature-font);
+  font-family: "Ruda", sans-serif;
 }
 
 
