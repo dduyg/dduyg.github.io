@@ -20,9 +20,9 @@ html::-webkit-scrollbar {
 }
 
 @font-face {
-      font-family: 'ABC Social Condensed';
-      src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ABCSocialCondensed-Regular.woff2') format('woff2'),
-           url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/ABCSocialCondensed-Regular.woff') format('woff');
+      font-family: 'Suisse Intl';
+      src: url('https://raw.githubusercontent.com/dduyg/tomagotchi/main/SuisseIntl-Regular-WebM.woff2') format('woff2'),
+           url('https://raw.githubusercontent.com/dduyg/tomagotchi/main/SuisseIntl-Regular-WebM.woff') format('woff');
       font-weight: normal;
       font-style: normal;
       font-display: swap;
@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #bfbfbf;
-  --main-font: 'ABC Social Condensed', sans-serif;
+  --main-font: 'Suisse Intl', sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
