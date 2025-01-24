@@ -16,8 +16,16 @@ header {
   letter-spacing: .04em;
 }
 
+@font-face {
+      font-family: 'PP Migra';
+      src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/PPMigra-Regular.woff2') format('woff2'),
+           url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/PPMigra-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
 .description {
   font-size: 22px;
   font-weight: bold;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: 'PP Migra', sans-serif;
 }
