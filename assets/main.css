@@ -27,6 +27,14 @@ html::-webkit-scrollbar {
       font-style: normal;
       font-display: swap;
 }
+    @font-face {
+      font-family: 'PP Migra';
+      src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/PPMigra-Regular.woff2') format('woff2'),
+           url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/PPMigra-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
