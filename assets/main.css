@@ -25,7 +25,7 @@ html::-webkit-scrollbar {
   --back: #bfbfbf;
   --main-font: "Public Sans", sans-serif;
   --mono-font: "Fira Code", monospace;
-  --feature-font: "Syncopate", monospace;
+  --feature-font: "Limelight", monospace;
 }
 
 body {
