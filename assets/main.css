@@ -21,17 +21,17 @@ html::-webkit-scrollbar {
 
 
 @font-face {
-     font-family: 'KareliaWeb';
-     src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/KareliaWeb-Regular.woff2') format('woff2'),
-          url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/KareliaWeb-Regular.woff') format('woff');
-     font-weight: 400;
+     font-family: 'TheMachineGun';
+     src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/TheMachineGun.woff2') format('woff2'),
+          url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/TheMachineGun.woff') format('woff');
+     font-weight: normal;
      font-style: normal;
      font-display: swap;
- }
+}
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #DEDEDE;
+  --back: #DDDED9;
   --main-font: "Bricolage Grotesque", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
@@ -101,7 +101,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  font-family: 'KareliaWeb', sans-serif;
+  font-family: 'TheMachineGun', sans-serif;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
