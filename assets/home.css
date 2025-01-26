@@ -16,18 +16,7 @@ header {
   letter-spacing: .04em;
 }
 
-
-@font-face {
-  font-family: 'Cabinet Grotesk';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/CabinetGrotesk-Variable.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/CabinetGrotesk-Variable.woff') format('woff');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
 .description {
   font-size: 22px;
-  font-family: 'Cabinet Grotesk', sans-serif;
-  font-weight: 500;
-  font-variation-settings: 'wght' 500;
+  font-family: "Raleway", sans-serif;
 }
