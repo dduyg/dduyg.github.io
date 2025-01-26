@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #DEDEDE;
-  --main-font: 'KareliaWeb', sans-serif;
+  --main-font: "Bricolage Grotesque", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -101,7 +101,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  font-family: "Ruda", sans-serif;
+  font-family: 'KareliaWeb', sans-serif;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
