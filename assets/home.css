@@ -16,7 +16,15 @@ header {
   letter-spacing: .04em;
 }
 
+@font-face {         
+  font-family: 'Sometimes Times';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/SometimesTimes-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/SometimesTimes-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .description {
   font-size: 22px;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: 'Sometimes Times', serif;
 }
