@@ -19,22 +19,13 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-
-@font-face {
-     font-family: 'TheMachineGun';
-     src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/TheMachineGun.woff2') format('woff2'),
-          url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/TheMachineGun.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
-     font-display: swap;
-}
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #DDDED9;
-  --main-font: "Bricolage Grotesque", sans-serif;
+  --back: #E1E3E0;
+  --main-font: "Rethink Sans", sans-serif;
   --mono-font: "Fira Code", monospace;
-  --feature-font: 'TheMachineGun', monospace;
+  --feature-font: "Syncopate", monospace;
 }
 
 body {
@@ -101,7 +92,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  font-family: 'TheMachineGun', sans-serif;
+  font-family: "Ruda", sans-serif;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
