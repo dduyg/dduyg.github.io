@@ -34,7 +34,7 @@ html::-webkit-scrollbar {
   --back: #DDDED9;
   --main-font: "Bricolage Grotesque", sans-serif;
   --mono-font: "Fira Code", monospace;
-  --feature-font: "Syncopate", monospace;
+  --feature-font: 'TheMachineGun', monospace;
 }
 
 body {
