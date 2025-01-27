@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Rethink Sans", sans-serif;
-  --mono-font: "Fira Code", monospace;
+  --mono-font: "Chakra Petch", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Chakra Petch", monospace;
+  font-family: var(--mono-font);
   color: #666;
   cursor: pointer;
   font-weight: bold;
@@ -71,6 +71,7 @@ a.link:hover, a.link:focus {
 
 h1, h2, h3 {
   all: unset;
+  font-weight: normal;
   font-family: "Space Mono", serif;
 }
 h1 {
@@ -95,7 +96,7 @@ h1 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  font-family: "Chakra Petch", monospace;
+  font-family: var(--mono-font);
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
