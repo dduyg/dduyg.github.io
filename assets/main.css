@@ -19,21 +19,13 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@font-face {
-  font-family: 'Fantasque Sans Mono';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Raleway", sans-serif;
-  --mono-font: 'Fantasque Sans Mono', monospace;
-  --feature-font: 'Yarikha', monospace;
+  --mono-font: "Sometype Mono", monospace;
+  --feature-font: "Syncopate", monospace;
 }
 
 body {
@@ -78,7 +70,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: 'Fantasque Sans Mono', serif;
+  font-family: "Sometype Mono", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
