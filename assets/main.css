@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Turret Road", monospace;
+  font-family: "Chakra Petch", monospace;
   color: #666;
   cursor: pointer;
   font-weight: bold;
@@ -69,8 +69,12 @@ a.link:hover, a.link:focus {
   background-size: 100% 2px;
 }
 
-h1, h2 {
-  font-family: "Ruda", sans-serif;
+h1, h2, h3 {
+  all: unset;
+  font-family: "Space Mono", serif;
+}
+h1 {
+  font-size: 2em;
 }
 
 
@@ -91,7 +95,7 @@ h1, h2 {
   display: block;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  font-family: "Turret Road", monospace;
+  font-family: "Chakra Petch", monospace;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
