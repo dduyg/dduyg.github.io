@@ -44,7 +44,7 @@ nav, main, footer, a {
 nav, footer {
   user-select: none;
 }
-image, svg {
+img, svg {
   user-select: none;
   pointer-events: none;
 }
