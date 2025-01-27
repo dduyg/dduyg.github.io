@@ -73,8 +73,8 @@ h1, h2, h3 {
   all: unset;
   font-family: "Bricolage Grotesque", serif;
   font-optical-sizing: auto;
-  font-weight: 450;
-  font-variation-settings: 'wght' 450;
+  font-weight: 350;
+  font-variation-settings: 'wght' 350;
   font-style: normal;
 }
 h1 {
