@@ -6,8 +6,6 @@ main {
 }      
 .contactHeader {
     font-size: 1.7rem;
-    font-weight: bold;
-    font-family: var(--feature-font);
     margin: 0;
     padding: 0 0 40px;
 }
