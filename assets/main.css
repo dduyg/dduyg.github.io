@@ -69,16 +69,12 @@ a.link:hover, a.link:focus {
   background-size: 100% 2px;
 }
 
-h1, h2, h3 {
-  all: unset;
+.heading {
   font-family: "Bricolage Grotesque", serif;
   font-optical-sizing: auto;
   font-weight: 350;
   font-variation-settings: 'wght' 350;
   font-style: normal;
-}
-h1 {
-  font-size: 2em;
 }
 
 
