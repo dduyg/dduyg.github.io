@@ -23,8 +23,8 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E6E7E2;
-  --main-font: "Encode Sans Semi Condensed", sans-serif;
-  --mono-font: "Ubuntu Mono", monospace;
+  --main-font: "Reddit Sans Condensed", sans-serif;
+  --mono-font: "M PLUS 1 Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -70,7 +70,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Geist Mono", serif;
+  font-family: "M PLUS 1 Code", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
