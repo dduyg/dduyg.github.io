@@ -19,10 +19,10 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@font-face { 
-  font-family: 'Yarikha';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Yarikha.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Yarikha.woff') format('woff');
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Raleway", sans-serif;
-  --mono-font: 'Yarikha', monospace;
+  --mono-font: 'Fantasque Sans Mono', monospace;
   --feature-font: 'Yarikha', monospace;
 }
 
@@ -78,7 +78,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: 'Yarikha', serif;
+  font-family: 'Fantasque Sans Mono', serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
