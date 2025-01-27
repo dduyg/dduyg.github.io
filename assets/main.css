@@ -71,8 +71,10 @@ a.link:hover, a.link:focus {
 
 h1, h2, h3 {
   all: unset;
-  font-weight: normal;
   font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 h1 {
   font-size: 2em;
