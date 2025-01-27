@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Raleway", sans-serif;
-  --mono-font: "Changa", monospace;
+  --mono-font: 'Yarikha', monospace;
   --feature-font: 'Yarikha', monospace;
 }
 
@@ -78,7 +78,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Changa", serif;
+  font-family: 'Yarikha', serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
