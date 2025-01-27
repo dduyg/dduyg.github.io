@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Raleway", sans-serif;
-  --mono-font: "Offside", monospace;
+  --mono-font: "Chakra Petch", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -70,10 +70,10 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Dosis", serif;
+  font-family: "Genos", serif;
   font-optical-sizing: auto;
-  font-weight: 450;
-  font-variation-settings: 'wght' 450;
+  font-weight: 400;
+  font-variation-settings: 'wght' 400;
   font-style: normal;
   line-height: 1.28;
 }
