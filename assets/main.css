@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Raleway", sans-serif;
-  --mono-font: "Lekton", monospace;
+  --mono-font: "Kode Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -70,7 +70,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Lekton", serif;
+  font-family: "Kode Mono", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
