@@ -70,12 +70,12 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Bricolage Grotesque", serif;
+  font-family: "Dosis", serif;
   font-optical-sizing: auto;
-  font-weight: 350;
-  font-variation-settings: 'wght' 350;
+  font-weight: 450;
+  font-variation-settings: 'wght' 450;
   font-style: normal;
-  line-height: 1.2;
+  line-height: 1.28;
 }
 
 
