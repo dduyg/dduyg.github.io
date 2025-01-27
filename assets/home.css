@@ -15,3 +15,7 @@ header {
   font-size: 11px;
   letter-spacing: .04em;
 }
+
+.description {
+  font-size: 2em;
+}
