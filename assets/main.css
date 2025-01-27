@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Rethink Sans", sans-serif;
-  --mono-font: "Chakra Petch", monospace;
+  --mono-font: "Space Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -72,7 +72,7 @@ a.link:hover, a.link:focus {
 h1, h2, h3 {
   all: unset;
   font-weight: normal;
-  font-family: "Space Mono", serif;
+  font-family: "Space Grotesk", serif;
 }
 h1 {
   font-size: 2em;
