@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "Reddit Sans Condensed", sans-serif;
-  --mono-font: "Share Tech Mono", monospace;
+  --mono-font: "Inconsolata", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
