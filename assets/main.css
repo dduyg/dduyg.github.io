@@ -24,8 +24,8 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E6E7E2;
   --main-font: "MuseoModerno", sans-serif;
-  --mono-font: "Chivo Mono", monospace;
-  --feature-font: "Bruno Ace SC", monospace;
+  --mono-font: "MuseoModerno", monospace;
+  --feature-font: "MuseoModerno", monospace;
 }
 
 body {
