@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E6E7E2;
-  --main-font: "Quicksand", sans-serif;
+  --main-font: "Rethink Sans", sans-serif;
   --mono-font: "Chivo Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -70,7 +70,7 @@ a.link:hover, a.link:focus {
 }
 
 .heading {
-  font-family: "Bricolage Grotesque", serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-variation-settings: 'wght' 400;
