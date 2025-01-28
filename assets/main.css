@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E6E7E2;
-  --main-font: "Oxygen", sans-serif;
+  --main-font: "Sora", sans-serif;
   --mono-font: "DM Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -99,6 +99,7 @@ a.link:hover, a.link:focus {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  opacity: 0.9;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
   cursor: pointer;
   animation: wave 2s infinite alternate;
