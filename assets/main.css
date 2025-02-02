@@ -239,8 +239,6 @@ footer {
 }
 .copyright {
   flex-basis: 40%;
-  font-size: .7rem;
-  font-weight: bold;
 }
 .social-links, .support {  
   flex-basis: 30%;
