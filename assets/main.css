@@ -226,6 +226,10 @@ a.link:hover, a.link:focus {
 
 /* Footer
 ------------------------------*/
+.footer-img {            
+  width: 100%;
+  height: auto;
+}
 footer {
   display: flex;
   justify-content: space-between;
