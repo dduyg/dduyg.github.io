@@ -1,18 +1,13 @@
- <div class="copyright">
-    <a href="{{ site.baseurl }}/about">
-     © duygudağdelen Studio 2025 — The Hague
-    </a>
- </div>
- <div class="social-links">
-    {% for network in site.networks %}
-        <a href="{{ network.url }}" title="{{ network.title }}" target="_blank">
-            <i class="{{ network.icon }}"></i>
-        </a>
-    {% endfor %}
- </div>
- <div class="support">
-    <span style="color: #5a5a5a;">▀▄</span> &nbsp; 
-    <a href="{{ site.baseurl }}/contact">Contact</a>
-    {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
-    <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
- </div>
+        <p>© duygudağdelen Studio 2025 — The Hague</p>  
+        <div class="cnt-links">
+            <a href="{{ site.baseurl }}/contact" class="emphasis">Contact</a>
+            {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
+            <a href="{{ ko_fi.url }}" class="emphasis" target="_blank">Give Support</a>
+         
+            <div class="spacer"></div>
+         
+            {% for network in site.networks %}
+        
+         <a href="{{ network.url }}" target="_blank">{{ network.title }}</a>
+    {% endfor %}  
+        </div>
