@@ -22,7 +22,7 @@ html::-webkit-scrollbar {
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
-  --back: #E6E7E2;
+  --back: #E1E2DB;
   --main-font: "PT Sans Narrow", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
