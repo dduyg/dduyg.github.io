@@ -25,21 +25,21 @@ seo:
 
 # Socials
 networks:
-  - title: GitHub
-    url: https://github.com/dduyg
-    icon: fab fa-github
   - title: Instagram
     url: https://instagram.com/insert.data
     icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/dduyg
+    icon: fab fa-github
   - title: Ko-fi
     url: https://ko-fi.com/dduyg
     icon: far fa-heart
   - title: Medium
     url: https://medium.com/@dduyg
     icon: fab fa-medium
-  - title: Behance
-    url: https://www.behance.net/dduyg
-    icon: fab fa-behance
   - title: INPRNT
     url: https://www.inprnt.com/gallery/insert.data
     icon: fas fa-vector-square
+  - title: Behance
+    url: https://www.behance.net/dduyg
+    icon: fab fa-behance
