@@ -7,7 +7,6 @@
             <div class="spacer"></div>
          
             {% for network in site.networks %}
-        
-         <a href="{{ network.url }}" target="_blank">{{ network.title }}</a>
-    {% endfor %}  
+            <a href="{{ network.url }}" target="_blank">{{ network.title }}</a>
+            {% endfor %}  
         </div>
