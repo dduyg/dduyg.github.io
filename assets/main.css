@@ -251,19 +251,20 @@ footer {
 }     
 .emphasis {        
   text-decoration: underline;    
-}     
+}
+.cnt-small {
+    display: none;
+    opacity: 0.8;            
+    font-family: "Orbit", monospace;        
+}
 .cnt-links .spacer {          
   display: none;         
   padding: 6px 0;    
-}        
+}
 @media (max-width: 768px) {           
-  footer, .cnt-links {flex-direction: column;}          
-  .cnt-links .spacer {display: block;}         
-  .emphasis {            
-    opacity: 0.8;            
-    font-family: "Orbit", monospace;         
-    text-decoration: none;        
-  }
+  footer, .cnt-links {flex-direction: column;}    
+  .cnt-links .spacer, .cnt-small {display: block;}
+  .emphasis {display: none;}
 }
 
 /************************************************
