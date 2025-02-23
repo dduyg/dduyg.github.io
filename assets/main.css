@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "Tenor Sans", sans-serif;
+  --main-font: "Arimo", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: var(--mono-font);
+  font-family: "Space Grotesk", sans-serif;
   color: #666;
   cursor: pointer;
   font-weight: bold;
