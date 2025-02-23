@@ -63,7 +63,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Geostar", monospace;
+  font-family: "Tourney", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -251,12 +251,11 @@ footer {
 }
 .emphasis {        
   font-weight: bold;
-  font-family: "Geostar", monospace;
+  font-family: "Tourney", monospace;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
   footer, .cnt-links {flex-direction: column;}
-  .cnt-links a {display: block; width:100%;}
 }
 
 /************************************************
