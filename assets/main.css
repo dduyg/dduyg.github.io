@@ -249,19 +249,20 @@ footer {
   display: inline-block;      
   cursor: pointer;    
 }     
-.emphasis a {        
+.emphasis {        
   text-decoration: underline;    
 }
 .cnt-links .spacer {          
-  display: none;         
-  padding: 6px 0;    
+  display: none;
+  padding: 6px 0;
 }
 @media (max-width: 768px) {           
-  footer, .cnt-links {flex-direction: column;}    
+  footer, .cnt-links {flex-direction: column;}
   .cnt-links .spacer {display: block;}
-  .emphasis a {
+  .emphasis {
     opacity: 0.8;            
-    font-family: "Orbit", monospace;
+    font-family: "Orbit", monospace;         
+    text-decoration: none;        
   }
 }
 
