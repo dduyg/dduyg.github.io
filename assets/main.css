@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Orbit", monospace;
+  font-family: "Fahkwang", monospace;
   color: #666;
   cursor: pointer;
   font-weight: bold;
@@ -253,7 +253,7 @@ footer {
 }     
 .emphasis {        
   font-weight: bold;
-  font-family: var(--feature-font);
+  font-family: "Fahkwang", monospace;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
