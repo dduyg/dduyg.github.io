@@ -259,12 +259,10 @@ footer {
 @media (max-width: 768px) {           
   footer, .cnt-links {flex-direction: column;}    
   .cnt-links .spacer {display: block;}
-  .emphasis {
-    
-opacity: 0.8;            
+  .emphasis a {
+    opacity: 0.8;            
     font-family: "Orbit", monospace;
-
-}
+  }
 }
 
 /************************************************
