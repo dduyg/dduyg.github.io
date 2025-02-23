@@ -252,15 +252,9 @@ footer {
 .emphasis {        
   text-decoration: underline;    
 }
-.cnt-links .spacer {          
-  display: none;
-  padding: 6px 0;
-}
 @media (max-width: 768px) {           
   footer, .cnt-links {flex-direction: column;}
-  .cnt-links .spacer {display: block;}
-  .emphasis {
-    opacity: 0.8;            
+  .emphasis {           
     font-family: "Orbit", monospace;         
     text-decoration: none;        
   }
