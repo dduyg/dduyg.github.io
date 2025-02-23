@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "Figtree", sans-serif;
+  --main-font: "Fjalla One", sans-serif;
   --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Genos", monospace;
+  font-family: "Orbit", monospace;
   color: #666;
   cursor: pointer;
   font-weight: bold;
@@ -261,7 +261,7 @@ footer {
   .cnt-links .spacer {display: block;}         
   .emphasis {            
     opacity: 0.8;            
-    font-family: "Genos", monospace;         
+    font-family: "Orbit", monospace;         
     text-decoration: none;        
   }
 }
