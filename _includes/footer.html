@@ -1,15 +1,10 @@
         <p>© duygudağdelen Studio 2025 — The Hague</p>  
         <div class="cnt-links">
-            <a href="{{ site.baseurl }}/contact" class="emphasis">Contact</a>
-            {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
-            <a href="{{ ko_fi.url }}" class="emphasis" target="_blank">Give Support</a>
-
-            <div class="cnt-small">
+            <div class="emphasis">
                 <a href="{{ site.baseurl }}/contact">Contact</a>
                 {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
-                &nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
+                &nbsp;&nbsp;&nbsp;<a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
             </div>
-
             <div class="spacer"></div>
          
             {% for network in site.networks %}
