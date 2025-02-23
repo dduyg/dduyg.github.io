@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Kode Mono", monospace;
   color: #666;
   cursor: pointer;
   font-weight: bold;
