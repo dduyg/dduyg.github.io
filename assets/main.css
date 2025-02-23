@@ -235,7 +235,7 @@ footer {
   display: flex;        
   justify-content: space-between;        
   align-items: center;         
-  gap: 10px;        
+  gap: 15px;        
   margin: 0 20px 20px;     
 }
 .copyrights {
@@ -244,7 +244,7 @@ footer {
 .cnt-links {     
   display: flex;      
   justify-content: space-between;        
-  gap: 4px 20px;      
+  gap: 4px 16px;      
   font-size: .8rem;
 }  
 .cnt-links a {        
@@ -253,15 +253,12 @@ footer {
   cursor: pointer;    
 }     
 .emphasis {        
-  text-decoration: underline;    
+  text-decoration: underline;
+  font-family: "Orbit", monospace;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
   footer, .cnt-links {flex-direction: column;}
-  .emphasis {           
-    font-family: "Orbit", monospace;         
-    text-decoration: none;        
-  }
 }
 
 /************************************************
