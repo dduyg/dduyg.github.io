@@ -1,10 +1,9 @@
-        <div class="copyrights">© duygudağdelen Studio 2025 — The Hague</div>  
+        <p>© duygudağdelen Studio 2025 — The Hague</p>  
         <div class="cnt-links">
-            <div class="emphasis">
-                <a href="{{ site.baseurl }}/contact" style="margin-right: 20px">Contact</a>
-                {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
-                <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
-            </div>
+            <a href="{{ site.baseurl }}/contact" class="emphasis">Contact</a>
+            {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
+            <a href="{{ ko_fi.url }}" class="emphasis" target="_blank">Give Support</a>
+         
             <div class="spacer"></div>
          
             {% for network in site.networks %}
