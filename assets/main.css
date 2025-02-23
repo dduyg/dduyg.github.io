@@ -54,7 +54,7 @@ a {
   text-decoration: none;
 }
 a.link {
-  font-family: "Jura", monospace;
+  font-family: "Genos", monospace;
   color: #666;
   cursor: pointer;
   font-weight: bold;
@@ -261,7 +261,7 @@ footer {
   .cnt-links .spacer {display: block;}         
   .emphasis {            
     opacity: 0.8;            
-    font-family: "Jura", monospace;         
+    font-family: "Genos", monospace;         
     text-decoration: none;        
   }
 }
