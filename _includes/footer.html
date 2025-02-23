@@ -4,8 +4,6 @@
             {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
             <a href="{{ ko_fi.url }}" class="emphasis" target="_blank">Give Support</a>
          
-            <div class="spacer"></div>
-         
             {% for network in site.networks %}
             <a href="{{ network.url }}" target="_blank">{{ network.title }}</a>
             {% endfor %}  
