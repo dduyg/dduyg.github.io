@@ -237,7 +237,10 @@ footer {
   align-items: center;         
   gap: 10px;        
   margin: 0 20px 20px;     
-}    
+}
+.copyrights {
+  font-size: .9rem;
+}
 .cnt-links {     
   display: flex;      
   justify-content: space-between;        
@@ -252,7 +255,8 @@ footer {
 .emphasis {        
   text-decoration: underline;    
 }
-@media (max-width: 768px) {           
+@media (max-width: 768px) {
+  footer {align-items: flex-start;}
   footer, .cnt-links {flex-direction: column;}
   .emphasis {           
     font-family: "Orbit", monospace;         
