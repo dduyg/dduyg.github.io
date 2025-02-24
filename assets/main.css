@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Atkinson Hyperlegible Next", sans-serif;
-  --mono-font: "Spline Sans Mono", monospace;
+  --mono-font: "Orbit", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Nova Mono", monospace;
+  font-family: "Nova Square", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -248,7 +248,7 @@ footer {
 }
 .emphasis {        
   font-weight: bold;
-  font-family: "Nova Mono", monospace;
+  font-family: "Nova Square", monospace;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
