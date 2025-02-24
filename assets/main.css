@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Atkinson Hyperlegible Next", sans-serif;
-  --mono-font: "Inconsolata", monospace;
+  --mono-font: "IBM Plex Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -53,7 +53,7 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  padding-bottom: 0.2ex;
+  padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
   background-size: 0% 2px;
   background-repeat: no-repeat;
