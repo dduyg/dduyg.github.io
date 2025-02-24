@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Atkinson Hyperlegible Next", sans-serif;
-  --mono-font: "DM Mono", monospace;
+  --mono-font: "Source Code Pro", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -68,6 +68,9 @@ a.link {
   filter: url("#outlineHover");
   color: #666;
   font-weight: bold;
+}
+a.link:hover, a.link:focus {
+  filter: none;
 }
 
 .heading {
@@ -245,8 +248,7 @@ footer {
   font-size: .8rem;
 }  
 .cnt-links a {        
-  text-transform: uppercase;   
-  display: inline-block;
+  text-transform: uppercase;
 }
 .emphasis {        
   font-weight: bold;
