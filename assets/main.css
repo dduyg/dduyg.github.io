@@ -79,7 +79,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Orbit", monospace;
+  font-family: "Glass Antiqua", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -262,7 +262,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: var(--feature-font);
+  font-family: "Glass Antiqua", monospace;
   text-transform: lowercase;
   font-weight: bold;
 }
