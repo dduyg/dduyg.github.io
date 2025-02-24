@@ -26,13 +26,19 @@ html::-webkit-scrollbar {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Mononoki';
+    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/mononoki-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: 'Helvetica Neue', sans-serif;
-  --mono-font: "Recursive", monospace;
+  --mono-font: 'Mononoki', monospace;
   --feature-font: "Syncopate", monospace;
 }
 
