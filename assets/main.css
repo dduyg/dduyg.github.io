@@ -248,7 +248,8 @@ footer {
 }
 .emphasis {
   font-family: var(--feature-font);
-  font-weight: 700;
+  text-transform: lowercase;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
