@@ -246,9 +246,9 @@ footer {
 .cnt-links a {        
   text-transform: uppercase;
 }
-.emphasis {        
-  font-weight: bold;
-  font-family: "Orbit", monospace;
+.emphasis {
+  font-family: var(--feature-font);
+  font-weight: 700;
 }
 @media (max-width: 768px) {
   footer {align-items: flex-start;}
