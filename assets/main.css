@@ -20,25 +20,18 @@ html::-webkit-scrollbar {
 }
 
 @font-face {
-  font-family: 'HK Grotesk';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HKGrotesk-Regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HKGrotesk-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'HK Grotesk';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HKGrotesk-Bold.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HKGrotesk-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HelveticaNeue.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: 'HK Grotesk', sans-serif;
+  --main-font: 'Helvetica Neue', sans-serif;
   --mono-font: "Recursive", monospace;
   --feature-font: "Syncopate", monospace;
 }
