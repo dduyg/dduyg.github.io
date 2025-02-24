@@ -27,9 +27,9 @@ html::-webkit-scrollbar {
     font-style: normal;
 }
 @font-face {
-    font-family: 'Consolas';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff') format('woff');
+    font-family: 'Lab Mono';
+    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +39,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: 'Helvetica Neue', sans-serif;
-  --mono-font: 'Consolas', monospace;
+  --mono-font: 'Lab Mono', monospace;
   --feature-font: "Syncopate", monospace;
 }
 
