@@ -20,26 +20,36 @@ html::-webkit-scrollbar {
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HelveticaNeue.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/HelveticaNeue.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Mononoki';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/mononoki-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Lab Mono';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Mononoki';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/mononoki-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mononoki';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/mononoki-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Mononoki';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/mononoki-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
 }
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: 'Helvetica Neue', sans-serif;
-  --mono-font: 'Lab Mono', monospace;
+  --main-font: "Inclusive Sans", sans-serif;
+  --mono-font: 'Mononoki', monospace;
   --feature-font: "Syncopate", monospace;
 }
 
