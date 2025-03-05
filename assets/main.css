@@ -19,20 +19,12 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@font-face {
-    font-family: 'Consolas';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "Inclusive Sans", sans-serif;
-  --mono-font: 'Consolas', monospace;
+  --main-font: "Atkinson Hyperlegible Next", sans-serif;
+  --mono-font: "Inconsolata", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -72,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Glass Antiqua", monospace;
+  font-family: "Orbit", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -255,7 +247,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Glass Antiqua", monospace;
+  font-family: "Orbit", monospace;
   text-transform: lowercase;
   font-weight: bold;
 }
