@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Atkinson Hyperlegible Next", sans-serif;
-  --mono-font: "Inconsolata", monospace;
+  --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Orbit", monospace;
+  font-family: "Tourney", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -247,7 +247,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Orbit", monospace;
+  font-family: "Tourney", monospace;
   text-transform: lowercase;
   font-weight: bold;
 }
