@@ -19,7 +19,7 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@f@font-face {
+@font-face {
     font-family: 'Consolas';
     src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff2') format('woff2'),
          url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Consolas.woff') format('woff');
