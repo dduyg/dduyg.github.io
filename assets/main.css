@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Aclonica", monospace;
+  font-family: "Kode Mono", monospace;
   color: #666;
   font-weight: bold;
 }
@@ -235,7 +235,6 @@ footer {
 }
 .copyrights {
   font-size: .9rem;
-  font-family: var(--mono-font);
 }
 .cnt-links {     
   display: flex;      
@@ -247,7 +246,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Aclonica", monospace;
+  font-family: "Kode Mono", monospace;
   text-transform: lowercase;
   font-weight: bold;
 }
