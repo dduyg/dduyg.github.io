@@ -124,5 +124,5 @@ header {
 }
 
 .panel-link {
-  filter: url("#outlineHover");
+  font-family: "DM Mono", monospace;
 }
