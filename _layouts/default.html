@@ -18,7 +18,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
@@ -59,18 +58,6 @@
   <footer>
     {% include footer.html %}
   </footer>
-
-  <!-- To use SVG filter effects, you'll need to include the SVG below with the appropriate filter.-->
-    <svg height="0" width="0" style="position: absolute;"> 
-      <!--Don't hide this with display: none; or the filter won't show on Firefox! -->
-      
-      <filter id="outlineHover" x="0" y="0" width="100%" height="100%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
-        <feMorphology operator="dilate" radius="0.6" in="SourceAlpha" result="morphology"/>
-        <feFlood flood-color="#161616" flood-opacity="1" result="flood"/>
-        <feComposite in="flood" in2="morphology" operator="in" result="composite"/>
-        <feComposite in="composite" in2="SourceAlpha" operator="out" result="outline"/>
-      </filter>
-    </svg>
 
   {% if page.scrollreveal %}
   <script src="https://unpkg.com/scrollreveal"></script>
