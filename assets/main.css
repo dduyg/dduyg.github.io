@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Chakra Petch", monospace;
+  font-family: "Major Mono Display", monospace;
 }
 
 .heading {
@@ -244,7 +244,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Tomorrow", monospace;
+  font-family: "Chakra Petch", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
