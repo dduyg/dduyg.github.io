@@ -19,14 +19,6 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@font-face {
-  font-family: "KareliaWeb";
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/KareliaWeb-Regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/KareliaWeb-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
@@ -72,8 +64,8 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "KareliaWeb", monospace;
-  font-weight: bold;
+  font-family: "Tomorrow", monospace;
+  font-weight: 500;
 }
 
 .heading {
@@ -253,8 +245,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "KareliaWeb", monospace;
-  text-transform: lowercase;
+  font-family: "Tomorrow", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
