@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: var(--feature-font);
+  font-family: var(--mono-font);
   font-weight: bold;
 }
 
