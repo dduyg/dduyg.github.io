@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Outfit", sans-serif;
-  --mono-font: "DM Mono", monospace;
+  --mono-font: "Share Tech Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "Major Mono Display", monospace;
+  font-family: "Syne Mono", monospace;
 }
 
 .heading {
@@ -244,7 +244,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Chakra Petch", monospace;
+  font-family: "Syne Mono", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
