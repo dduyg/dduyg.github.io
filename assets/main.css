@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "PT Sans Narrow", sans-serif;
+  --main-font: "Outfit", sans-serif;
   --mono-font: "DM Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -64,7 +64,7 @@ a:hover, a:focus {
   background-size: 100% 2px;
 }
 a.link {
-  font-family: "DM Mono", monospace;
+  font-family: "Turret Road", monospace;
   font-weight: bold;
 }
 
@@ -245,7 +245,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "DM Mono", monospace;
+  font-family: "Turret Road", monospace;
   text-transform: lowercase;
   font-weight: bold;
 }
