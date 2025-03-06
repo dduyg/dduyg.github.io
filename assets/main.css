@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Outfit", sans-serif;
-  --mono-font: "Source Code Pro", monospace;
+  --mono-font: "Fira Code", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
@@ -65,6 +65,7 @@ a:hover, a:focus {
 }
 a.link {
   font-family: var(--feature-font);
+  font-weight: bold;
 }
 
 .heading {
