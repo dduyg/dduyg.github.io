@@ -245,7 +245,6 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Ruda", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
