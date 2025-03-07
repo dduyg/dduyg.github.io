@@ -33,7 +33,7 @@ body {
   color: var(--color-main);
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   font-family: var(--main-font);
   -webkit-font-smoothing: antialiased;
 }
@@ -66,6 +66,7 @@ a:hover, a:focus {
 a.link {
   font-family: var(--mono-font);
   font-weight: bold;
+  color: #454545;
 }
 
 .heading {
@@ -245,7 +246,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: var(--feature-font);
+  font-family: var(--mono-font);
   font-weight: bold;
 }
 @media (max-width: 768px) {
