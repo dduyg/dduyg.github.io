@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "Parkinsans", sans-serif;
+  --main-font: "Mona Sans", sans-serif;
   --mono-font: "IBM Plex Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
@@ -55,7 +55,7 @@ a {
   cursor: pointer;
 }
 a.link {
-  font-family: "Armata", monospace;
+  font-family: "Orbit", monospace;
   font-weight: bold;
   padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
@@ -245,7 +245,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Armata", monospace;
+  font-family: "Orbit", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
