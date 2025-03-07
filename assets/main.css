@@ -240,12 +240,12 @@ footer {
   justify-content: space-between;        
   gap: 4px 16px;      
   font-size: .8rem;
-}  
+}
 .cnt-links a {        
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Syncopate", monospace;
+  font-family: "Orbit", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
