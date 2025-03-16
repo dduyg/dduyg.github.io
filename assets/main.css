@@ -23,8 +23,8 @@ html::-webkit-scrollbar {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
-  --main-font: "Figtree", sans-serif;
-  --mono-font: "Atkinson Hyperlegible Mono", monospace;
+  --main-font: "Outfit", sans-serif;
+  --mono-font: "Oxygen Mono", monospace;
   --feature-font: "Syncopate", monospace;
 }
 
