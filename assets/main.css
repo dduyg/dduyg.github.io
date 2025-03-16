@@ -19,12 +19,34 @@ html::-webkit-scrollbar {
   color: white;
 }
 
+@font-face {
+  font-family: '0xProto';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '0xProto';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Italic.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: '0xProto';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Bold.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/0xProto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
   --back: #E1E2DB;
   --main-font: "Figtree", sans-serif;
-  --mono-font: "IBM Plex Mono", monospace;
+  --mono-font: '0xProto', 'Inconsolata', monospace;
   --feature-font: "Syncopate", monospace;
 }
 
