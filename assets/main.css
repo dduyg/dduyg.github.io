@@ -246,7 +246,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: var(--mono-font);
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: bold;
 }
 @media (max-width: 768px) {
