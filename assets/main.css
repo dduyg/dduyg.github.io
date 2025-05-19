@@ -19,8 +19,20 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@font-face {
+  font-family: "Nekst";
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Nekst-SemiBold.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Nekst-SemiBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face { 
+  font-family: "Nekst";
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Nekst-Black.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Nekst-Black.woff') format('woff');
+  font-style: normal;
+  font-weight: 900;
+}
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
