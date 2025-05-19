@@ -55,7 +55,7 @@ a {
   cursor: pointer;
 }
 a.link {
-  font-family: "Kalnia", serif;
+  font-family: "Yeseva One", serif;
   font-weight: bold;
   padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
@@ -246,7 +246,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Kalnia", serif;
+  font-family: "Yeseva One", serif;
   font-weight: bold;
 }
 @media (max-width: 768px) {
