@@ -20,6 +20,7 @@ html::-webkit-scrollbar {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
 
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
