@@ -70,7 +70,7 @@ a {
   cursor: pointer;
 }
 a.link {
-  font-family: "Combo", monospace;
+  font-family: "Nekst", monospace;
   font-weight: bold;
   padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
@@ -261,7 +261,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Combo", monospace;
+  font-family: "Nekst", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
