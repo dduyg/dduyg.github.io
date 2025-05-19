@@ -19,7 +19,6 @@ html::-webkit-scrollbar {
   color: white;
 }
 
-
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
@@ -56,7 +55,7 @@ a {
   cursor: pointer;
 }
 a.link {
-  font-family: "Aubrey", monospace;
+  font-family: "Kalnia", monospace;
   font-weight: bold;
   padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
@@ -94,7 +93,7 @@ a.link:hover, a.link:focus {
 .siteHeader_title {
   display: block;
   font-size: 1.6rem;
-  font-family: "Combo", monospace;
+  font-family: "Aubrey", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -247,7 +246,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Aubrey", monospace;
+  font-family: "Kalnia", monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
