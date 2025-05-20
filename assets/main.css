@@ -19,6 +19,13 @@ html::-webkit-scrollbar {
   color: white;
 }
 
+@font-face {
+  font-family: 'Pentameter Wide';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/Pentameter-Wide-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --color-main: rgba(0, 0, 0, 0.87); 
   --assertive: #C9C9BF;
@@ -55,7 +62,7 @@ a {
   cursor: pointer;
 }
 a.link {
-  font-family: "Kode Mono", monospace;
+  font-family: 'Pentameter Wide', monospace;
   font-weight: bold;
   padding-bottom: 0.4ex;
   background-image: linear-gradient(to right, currentColor, currentColor);
@@ -246,7 +253,7 @@ footer {
   text-transform: uppercase;
 }
 .emphasis {
-  font-family: "Kode Mono", monospace;
+  font-family: 'Pentameter Wide', monospace;
   font-weight: bold;
 }
 @media (max-width: 768px) {
