@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
   --back: #E1E2DB;
   --main-font: "M PLUS 1", sans-serif;
   --mono-font: "Fira Code", monospace;
-  --feature-font: "Syncopate", monospace;
+  --feature-font: "Unbounded", monospace;
 }
 
 body {
