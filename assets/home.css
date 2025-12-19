@@ -1,0 +1,21 @@
+main {
+  max-width: 800px;
+  margin: 25vh auto 0;
+  padding: 1.25em;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.author {
+  margin-right: -5px;
+  text-align: right;     
+  font-family: var(--mono-font);
+  font-size: 11px;
+  letter-spacing: .04em;
+}
+
+.description {
+  font-size: 2em;
+}

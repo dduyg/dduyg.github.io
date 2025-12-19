@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}dduyg</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Ruda&family=Sofia+Sans+Extra+Condensed:wght@500&family=Syncopate&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.cdnfonts.com/css/harmony-3" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@350&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+  {% for css_file in page.css %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/{{ css_file }}.css">{% endfor %}
+</head>
+<body>
+  <div class="siteHeader">
+    <a class="siteHeader_title" href="{{ site.baseurl }}/">/dduyg</a>
+    <nav id="aside-menu">
+      <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
+      <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
+      <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">works</a>
+      <a class="item {% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}/contact">contact</a>
+    </nav>
+    <nav id="drop-menu">
+      <div class="siteHeader_menuBtn" id="menuBtn">
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+      </div>
+      <div class="dropNav">
+        <a class="item {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">home</a>
+        <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">posts</a>
+        <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">about</a>
+        <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">works</a>
+        <a class="item {% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}/contact">contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+  <!-- ————————●●●———————— -->
+       {{ content }}
+  <!-- ————————●●●———————— -->
+  </main>
+
+  <img src="https://cdn.jsdelivr.net/gh/dduyg/LiminalLoop@main/fonts/3Dfonts/cube-font.png" class="footer-img">
+  <footer>
+    {% include footer.html %}
+  </footer>
+
+  {% if page.scrollreveal %}
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      ScrollReveal().reveal('{{ page.scrollreveal }}', {
+        origin: 'bottom',   // Direction from where the elements will appear e.g. 'top' or 'bottom'
+        distance: '50px',   // Distance the elements will travel
+        duration: 1000,     // Duration of each animation (1 second)
+        interval: 200       // Each subsequent element starts 0.2 seconds after the previous one
+      });
+    }); 
+  </script>
+  {% endif %}
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const dropNav = document.querySelector('.dropNav');
+    const body = document.body;
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.classList.toggle('open');
+      dropNav.style.visibility = isOpen ? 'visible' : 'hidden';
+
+      const items = [...dropNav.querySelectorAll('.item')];
+
+      if (isOpen) {
+        items.forEach((item, index) => {
+          item.classList.remove('open'); // Reset class for fresh animations
+          item.style.transitionDelay = `${index * 0.2}s`; // Add delay for animation
+          item.classList.add('open');
+        });
+      } else {
+        items.forEach((item) => {
+          item.style.transitionDelay = '';
+          item.classList.remove('open');
+        });
+      }
+    });
+
+    // Close menu if clicked outside
+    body.addEventListener('click', (e) => {
+      if (!menuBtn.contains(e.target) && !dropNav.contains(e.target)) {
+        menuBtn.classList.remove('open');
+        dropNav.style.visibility = 'hidden';
+        const items = [...dropNav.querySelectorAll('.item')];
+        items.forEach((item) => {
+          item.classList.remove('open');
+        });
+      }
+    });
+  </script>
+</body>
+</html>

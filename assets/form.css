@@ -1,0 +1,153 @@
+/* Contact form layout and styling */
+main {
+    max-width: 1200px;
+    margin: 100px auto 0;
+    padding: 2em;
+}      
+.contactHeader {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0 0 40px;
+}
+.content {
+    display: flex;
+    gap: 5px 5%;
+}
+.hello {
+    flex: 0 0 40%;
+    font-size: 16px;
+}
+.contact-form {
+    flex: 0 0 60%;
+    margin-top: 35px;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .hello, .contact-form {
+        flex: 1;
+    }
+    .contact-form {
+        font-size: 17px;
+        margin-top: 26px;
+        padding: 0;
+    }
+    .contactHeader {
+        padding-bottom: 0;
+    }
+}
+
+/* Form styling */
+form input, form textarea {
+    width: 100%;   
+    padding: 25px 15px;
+    color: black;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: var(--mono-font);
+    border-top: 0.0875em solid var(--color-main);
+    box-sizing: border-box;         
+}
+
+form input:focus, form textarea:focus {
+    border-top: 3px solid #474747;
+}
+
+form textarea {
+    resize: none;
+}
+
+/* custom placeholder color ==>
+   form input::placeholder, form textarea::placeholder {
+       color: #757575;
+    }
+*/
+
+/* Optional text styling for Company/Industry field */
+#optional-text {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.73em;
+    font-style: italic;
+    font-family: var(--mono-font);
+    color: rgba(0, 0, 0, 0.4);    
+}
+
+/* Send button styling */
+.send-btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 3rem 10px;
+    margin: 6% 0 0;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: var(--feature-font);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px black;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to left, transparent 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s ease, color 0.3s ease;
+    padding-right: 70px; /* Space for the SVG icon */
+}
+
+.send-btn:hover,
+.send-btn:focus {
+    background-position: left;
+    color: linen;
+}
+
+/* Arrow icon styling */
+.send-btn .send-arrow {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 47px;
+    height: 35px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='59' height='44' viewBox='0 0 59 44' fill='none'%3E%3Cpath d='M37.0895 43.615C36.8847 40.7869 37.2802 37.9475 38.2498 35.283C39.2195 32.6185 40.7415 30.1891 42.7159 28.1541C44.6904 26.119 47.0728 24.5244 49.7068 23.4748C52.3409 22.4251 55.167 21.9441 58 22.0634L-9.42049e-07 22.0634' stroke='black' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M37.0896 0.420364C36.8762 3.25468 37.2649 6.10203 38.2303 8.77541C39.1956 11.4488 40.7157 13.8877 42.6906 15.9318C44.6655 17.976 47.0507 19.5791 49.6892 20.6358C52.3278 21.6926 55.1601 22.1792 58.0001 22.0635' stroke='black' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E");
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+.send-btn:hover .send-arrow,
+.send-btn:focus .send-arrow {
+    transform: translateY(-50%) translateX(10px);
+}
+
+/* Additional for text animation */
+.send-btn span {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.send-btn > span > span {
+    display: inline-block;
+    animation: MoveLeftInitial 0.1s forwards, MoveLeftEnd 0.3s forwards 0.2s;
+}
+
+@keyframes MoveLeftInitial {
+    to { transform: translate3d(-105%, 0, 0); }
+}
+
+@keyframes MoveLeftEnd {
+    from { transform: translate3d(100%, 0, 0); }
+    to { transform: translate3d(0, 0, 0); }
+}

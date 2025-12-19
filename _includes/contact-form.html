@@ -1,0 +1,47 @@
+    <div class="contactHeader heading">* — A simple hello could lead to a million things</div>
+    <div class="content">
+        <section class="hello">
+            <p>Whether you want to know more about my work or me, ask a question, simply want to bounce around some ideas, or just like to say hi, please don't hesitate to send me a message. I would love to hear from you.</p>      
+        </section>
+        <section class="contact-form">
+            <form id="myForm" action="https://formspree.io/f/mvoenkpz" method="POST">
+                <input type="text" id="name" name="name" placeholder="FULL NAME *" required>
+                <input type="email" id="email" name="email" placeholder="BEST EMAIL ADDRESS TO REACH YOU *" required> 
+                <div style="position: relative; max-width: 100%;">
+                    <input type="text" id="company" name="company" placeholder="COMPANY/INDUSTRY" style="padding-right: 45px;" oninput="toggleOptionalText()">
+                    <span id="optional-text"><sup>(optional)</sup></span>
+                </div>    
+                <textarea id="message" name="message" rows="5" placeholder="ENTER YOUR MESSAGE *" required></textarea>
+                <button type="submit" class="send-btn" onclick="clearForm()">
+                    <span><span>Send<br>Message</span></span>
+                    <span class="send-arrow"></span>
+                </button>    
+            </form>
+        </section>
+    </div>
+
+    <script>
+        function toggleOptionalText() {
+            const companyInput = document.getElementById('company');
+            const optionalText = document.getElementById('optional-text');
+
+            // Check if the input value is empty or not
+            if (companyInput.value.trim() === '') {
+                optionalText.style.display = 'inline';  // Show optional text
+            } else {
+                optionalText.style.display = 'none';    // Hide optional text
+            }
+        }
+
+        function clearForm() {
+            const form = document.getElementById('myForm');
+
+            form.addEventListener('submit', function(event) {
+                setTimeout(function() {
+                    form.reset();
+                    // Show the optional text again after reset
+                    document.getElementById('optional-text').style.display = 'inline';
+                }, 50);
+            });
+        }
+    </script>

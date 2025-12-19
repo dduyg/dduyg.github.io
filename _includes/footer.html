@@ -1,0 +1,14 @@
+        <div class="copyrights">© duygudağdelen Studio <span id="year"></span> — The Hague</div>  
+        <div class="cnt-links">
+            <a href="{{ site.baseurl }}/contact" class="emphasis">Contact</a>
+            {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
+            <a href="{{ ko_fi.url }}" class="emphasis" target="_blank">Give Support</a>
+         
+            {% for network in site.networks %}
+            <a href="{{ network.url }}" target="_blank">{{ network.title }}</a>
+            {% endfor %}  
+        </div>
+
+        <script>
+           document.getElementById('year').textContent = new Date().getFullYear();
+        </script>

@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+  border: 0;  
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+}
+
+section {
+  border-right: 0.0625rem solid black;
+  display: flex;
+  flex: 1;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#approach {
+  border-right: none;
+}
+
+
+/*  Panel */
+header {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  transform: rotate(-90deg);
+  font-size: min(5.3vw, 32px);
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  line-height: 1;
+}
+@media screen and (min-width: 1200px) {
+  header {
+      font-size: 32px; /* Resets font size to 32px for screens wider than 1200px */
+  }
+}
+.panel-active header {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: min(8vw, 32px) !important;
+  transform: rotate(0deg);
+  transition: 0.5s ease;
+  white-space: normal;
+}
+#bio.panel-inactive header,
+#about.panel-inactive header {
+  padding: 1em;
+}
+
+.profile-img {
+  display: block;
+  width: 2.5em;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+#bio.panel-active header .name,
+#bio.panel-inactive .profile-img {
+  display: none;
+}
+
+.content {
+  display: none;
+  font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
+  overflow-y: auto;
+  padding: 0 5%;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */ 
+}
+
+/* Custom scrollbar */
+.content::-webkit-scrollbar {
+    width: 1.3em;
+}
+.content::-webkit-scrollbar-track {
+    background: transparent;
+}
+.content::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb:hover {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%230A0A0A" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1.94 -1.94 100.93 100.93" xml:space="preserve" stroke="%230A0A0A" stroke-width="2.523404"%3E%3Cg id="SVGRepo_bgCarrier" stroke-width="0"%3E%3C/g%3E%3Cg id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"%3E%3C/g%3E%3Cg id="SVGRepo_iconCarrier"%3E%3Cg%3E%3Cg%3E%3Cpath d="M63.027,0h-29v29h29V0z M58.027,24h-19V5h19V24z"%3E%3C/path%3E%3Crect x="46.026" y="33.952" width="5" height="28.845"%3E%3C/rect%3E%3Cpath d="M48.527,66.804c-8.34,0-15.125,6.785-15.125,15.125c0,8.341,6.785,15.125,15.125,15.125s15.125-6.784,15.125-15.125 C63.652,73.589,56.867,66.804,48.527,66.804z M48.527,92.054c-5.583,0-10.125-4.542-10.125-10.125s4.542-10.125,10.125-10.125 s10.125,4.542,10.125,10.125S54.11,92.054,48.527,92.054z"%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@-moz-document url-prefix() { /* Firefox scrollbar */
+    .content {
+        scrollbar-color: #0A0A0A transparent;
+        scrollbar-width: thin;
+    }
+    .content::-webkit-scrollbar-thumb {
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%230A0A0A" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1.94 -1.94 100.93 100.93" xml:space="preserve" stroke="%230A0A0A" stroke-width="2.523404"%3E%3Cg id="SVGRepo_bgCarrier" stroke-width="0"%3E%3C/g%3E%3Cg id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"%3E%3C/g%3E%3Cg id="SVGRepo_iconCarrier"%3E%3Cg%3E%3Cg%3E%3Cpath d="M63.027,0h-29v29h29V0z M58.027,24h-19V5h19V24z"%3E%3C/path%3E%3Crect x="46.026" y="33.952" width="5" height="28.845"%3E%3C/rect%3E%3Cpath d="M48.527,66.804c-8.34,0-15.125,6.785-15.125,15.125c0,8.341,6.785,15.125,15.125,15.125s15.125-6.784,15.125-15.125 C63.652,73.589,56.867,66.804,48.527,66.804z M48.527,92.054c-5.583,0-10.125-4.542-10.125-10.125s4.542-10.125,10.125-10.125 s10.125,4.542,10.125,10.125S54.11,92.054,48.527,92.054z"%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+      font-size: 19px; /* Resets font size to 19px for screens wider than 1200px */
+  }
+}
+
+.panel-inactive:hover {
+  flex: 1.1;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease;
+}
+.panel-active {
+  flex: 16;
+  transition: 1s ease;
+}
+.panel-active .content {
+  display: block;
+}
+
+.panel-link {
+  font-family: "DM Mono", monospace;
+}
